@@ -602,6 +602,7 @@
       <if type="post webpage" match="any">
         <!-- Webpages are always italicized -->
         <text variable="title" font-style="italic"/>
+        <text variable="URL"/>
       </if>
       <else-if variable="container-title" match="any">
         <!-- Other types are italicized based on presence of container-title.
@@ -1548,10 +1549,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if variable="DOI" match="any">
-        <text variable="DOI" prefix="https://doi.org/"/>
-      </if>
-      <else-if variable="URL">
+      <if variable="URL">
         <group delimiter=" ">
           <choose>
             <if variable="issued status" match="none">
@@ -1564,7 +1562,7 @@
           </choose>
           <text variable="URL"/>
         </group>
-      </else-if>
+      </if>
     </choose>
   </macro>
   <macro name="event">
