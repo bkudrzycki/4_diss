@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.6)  23 FEB 2023 17:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.15)  23 FEB 2023 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,7 +1160,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 )
 \cslhangindent=\skip105
 \csllabelwidth=\skip106
-No file diss.aux.
+(./diss.aux)
 \openout1 = `diss.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 248.
@@ -1232,9 +1232,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 248.
 LaTeX Info: Redefining \pageref on input line 248.
 LaTeX Info: Redefining \nameref on input line 248.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1356,19 +1353,32 @@ LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
 
 ] [2
 
-]
+] (./diss.toc
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 5.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.10385pt on input line 5.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.02315pt on input line 5.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 5.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.10213pt on input line 5.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.02185pt on input line 5.
+)
 \tf@toc=\write3
 \openout3 = `diss.toc'.
 
 [3
 
-]
+] (./diss.lof)
 \tf@lof=\write4
 \openout4 = `diss.lof'.
 
 [4
 
-]
+] (./diss.lot)
 \tf@lot=\write5
 \openout5 = `diss.lot'.
 
@@ -1395,137 +1405,113 @@ Chapter 4.
 
 ] [10]
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.10385pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.02315pt on input line 319.
+(Font)              scaled to size 9.00096pt on input line 320.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.10213pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.02185pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 319.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 319.
+(Font)              scaled to size 8.99904pt on input line 320.
 [11
 
-] [12] [13] [14]
-
-LaTeX Warning: Reference `data' on page 15 undefined on input line 345.
-
-
-LaTeX Warning: Reference `conclusion' on page 15 undefined on input line 345.
-
-
-LaTeX Warning: Reference `fig:fig-enrollment' on page 15 undefined on input lin
-e 355.
-
-[15]
-File: ~/polybox/4_diss/chapters/3_cqp/markdown/figures/fig-enrollment-1.pdf Gra
-phic file (type pdf)
-<use ~/polybox/4_diss/chapters/3_cqp/markdown/figures/fig-enrollment-1.pdf>
-[16] [17] [18] [19]
-
-LaTeX Warning: Reference `tab:sampling' on page 20 undefined on input line 416.
-
-
-[20]
-
-LaTeX Warning: Reference `tab:tbl-cqpdesc' on page 21 undefined on input line 4
-18.
-
-
-Overfull \hbox (67.28633pt too wide) in paragraph at lines 426--490
+] [12] [13] [14] [15]
+File: figures/fig-enrollment-1.pdf Graphic file (type pdf)
+<use figures/fig-enrollment-1.pdf>
+[16] [17] [18] [19] [20]
+Overfull \hbox (67.28633pt too wide) in paragraph at lines 422--486
  [] 
  []
 
-[21] [22]
+[21]
+Overfull \vbox (215.70201pt too high) has occurred while \output is active []
 
-LaTeX Warning: Reference `tab:tbl-cqpdesc' on page 23 undefined on input line 4
-95.
+[22] [23] [24] [25] (./tables/tbl-cbmodels.tex) [26] [27] [28] [29] [30]
+Overfull \vbox (225.00557pt too high) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `tab:tbl-attritionapps' on page 23 undefined on input 
-line 497.
-
-
-LaTeX Warning: Reference `tab:tbl-attritionappsreg' on page 23 undefined on inp
-ut line 497.
-
-[23]
-
-LaTeX Warning: Reference `tab:tbl-attritionfirms' on page 24 undefined on input
- line 499.
-
-
-LaTeX Warning: Reference `tab:tbl-attritionfirmsreg' on page 24 undefined on in
-put line 499.
-
-
-LaTeX Warning: Reference `cqp-appendix-b' on page 24 undefined on input line 50
-6.
-
-[24]
-
-LaTeX Warning: Reference `cqp-appendix-b' on page 25 undefined on input line 50
-8.
-
-(./tables/tbl-cbmodels.tex) [25]
-
-LaTeX Warning: Reference `tab:tbl-cbmodels' on page 26 undefined on input line 
-524.
-
-[26]
-
-LaTeX Warning: Reference `tab:tbl-allowancebounds' on page 27 undefined on inpu
-t line 528.
-
-
-LaTeX Warning: Reference `tab:tbl-allowboundsapp' on page 27 undefined on input
- line 528.
-
-[27]
-
-LaTeX Warning: Reference `tab:tbl-cbmodels' on page 28 undefined on input line 
-534.
-
-[28] [29]
-
-LaTeX Warning: Reference `appmethod' on page 30 undefined on input line 606.
-
-
-LaTeX Warning: Reference `tab:tbl-skills' on page 30 undefined on input line 60
-6.
-
-[30]
-
-LaTeX Warning: Reference `tab:tbl-skillschangebycqp' on page 31 undefined on in
-put line 610.
-
-
-LaTeX Warning: Reference `tab:tbl-compexp2' on page 31 undefined on input line 
-610.
-
-[31]
-Overfull \hbox (25.10635pt too wide) in paragraph at lines 618--651
+[31] [32]
+Overfull \hbox (25.10635pt too wide) in paragraph at lines 609--644
  [][] 
  []
 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.651 \end{table}
-                  
-Here is how much of TeX's memory you used:
- 24156 strings out of 476179
- 453103 string characters out of 5809545
- 950623 words of memory out of 5000000
- 44452 multiletter control sequences out of 15000+600000
- 481504 words of font info for 154 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 74i,17n,123p,1963b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
+Overfull \hbox (34.60631pt too wide) in paragraph at lines 882--923
+ [][] 
+ []
 
-Output written on diss.pdf (32 pages).
+[43] [44] [45] [46] [47] [48] [49
+
+] [50] [51] [52] [53]
+Overfull \vbox (19.41597pt too high) detected at line 1160
+ []
+
+[54
+
+]
+Overfull \vbox (264.00493pt too high) has occurred while \output is active []
+
+[55] [56]
+Overfull \vbox (69.84554pt too high) has occurred while \output is active []
+
+[57]
+File: figures/fig-firmsize-1.pdf Graphic file (type pdf)
+<use figures/fig-firmsize-1.pdf>
+
+Overfull \hbox (43.76637pt too wide) in paragraph at lines 1268--1295
+ [] 
+ []
+
+[58]
+Overfull \vbox (8.10092pt too high) has occurred while \output is active []
+
+[59]
+Overfull \vbox (166.61092pt too high) has occurred while \output is active []
+
+[60]
+File: figures/fig-costspie-1.pdf Graphic file (type pdf)
+<use figures/fig-costspie-1.pdf>
+[61]
+File: figures/fig-costspie2-1.pdf Graphic file (type pdf)
+<use figures/fig-costspie2-1.pdf>
+File: figures/fig-apphist-1.pdf Graphic file (type pdf)
+<use figures/fig-apphist-1.pdf>
+File: figures/fig-firmhist-1.pdf Graphic file (type pdf)
+<use figures/fig-firmhist-1.pdf>
+[62] [63] [64]
+Overfull \vbox (121.73656pt too high) has occurred while \output is active []
+
+[65] [66] [67
+
+]
+Overfull \vbox (257.27815pt too high) has occurred while \output is active []
+
+[68] [69
+
+] [70
+
+]
+Overfull \vbox (119.64093pt too high) has occurred while \output is active []
+
+[71] [72
+
+] [73] [74]
+File: figures/questionnaire/metalworking.pdf Graphic file (type pdf)
+<use figures/questionnaire/metalworking.pdf>
+File: figures/questionnaire/plumbing.pdf Graphic file (type pdf)
+<use figures/questionnaire/plumbing.pdf>
+File: figures/questionnaire/carpentry.pdf Graphic file (type pdf)
+<use figures/questionnaire/carpentry.pdf>
+File: figures/questionnaire/masonry.pdf Graphic file (type pdf)
+<use figures/questionnaire/masonry.pdf>
+File: figures/questionnaire/electricians.pdf Graphic file (type pdf)
+<use figures/questionnaire/electricians.pdf>
+[75] [76] [77] [78] [79] [80]
+Chapter 5.
+[81
+
+] (./diss.aux) ) 
+Here is how much of TeX's memory you used:
+ 24314 strings out of 476179
+ 457149 string characters out of 5809544
+ 978593 words of memory out of 5000000
+ 44590 multiletter control sequences out of 15000+600000
+ 481512 words of font info for 155 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 74i,21n,123p,2232b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on diss.pdf (82 pages).
