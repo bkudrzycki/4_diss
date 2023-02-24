@@ -1,14 +1,9 @@
 ---
-title: Thesis Title
-subtitle: Subtitle
+title: Thesis title
+dissno: xxxx
 author: 
-  - name: Bart Kudrzycki
-    affiliation: Development Economics Group, ETH Zurich, Switzerland, <bartlomiej.kudrzycki@nadel.ethz.ch>
-date: \today
+  - name: Bartlomiej Pawel Kudrzycki
 thanks: Thanks to Dario and Elina for the Markdown template.
-supervisors: Isabel Gunther
-acknowledgments: I would like to thank...
-bigabstract: Big abstract
 keywords: [Informal labor markets, Dual training, Apprenticeship]
 jel: [I26]
 bibliography: bibliography.bib
@@ -33,6 +28,9 @@ This paper uses a novel longitudinal dataset of 752 youth living in Cotonou, Ben
 
 \clearpage
 
+```{r, child='chapters/1_survey/markdown/survey.Rmd'}
+```
+
 \newsection
 
 \doublespacing
@@ -45,6 +43,9 @@ This paper introduces the Youth Labor Index for Lower-Income Countries (YLILI), 
 \end{chapabstract}
 
 \clearpage
+
+```{r, child='chapters/2_index/markdown/index.Rmd'}
+```
 
 \newsection
 

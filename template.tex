@@ -256,11 +256,15 @@ $if(csl-refs)$
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 $endif$
+\newcommand{\dissno}{$dissno$}
 
-\newcommand{\supervisors}{$supervisors$}
-\newcommand{\subtitle}{$subtitle$}
-\newcommand{\bigabstract}{$bigabstract$}
-\newcommand{\acknowledgments}{$acknowledgments$}
+\def\afterpreface{\newpage
+        \pagestyle{fancy}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[leh,roh]{\thepage}
+\fancyhf[loh,reh]{\slshape\leftmark}
+
 \makeatletter
 \newenvironment{chapabstract}{%
     \begin{center}%
@@ -274,9 +278,7 @@ $endif$
     \begin{titlepage}
     \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
     $if(title)$
-    \title{$title$$if(thanks)$\thanks{$thanks$}
-    $endif$
-    }
+    \title{$title$}
     $endif$
   
     
@@ -287,47 +289,50 @@ $endif$
     $endfor$
     }
 
-    \noindent
-		\includegraphics[viewport=8 8 185 55]{figures/logo.jpg} \hfill
-		\vspace{3cm}
-
-		\let\footnotesize\small
-		\let\footnoterule\relax
+		\includegraphics[viewport=90 -45 0 -60]{figures/logo.jpg} \hfill
 
 		\begin{center}
-			\begin{spacing}{1.8}
-			  {\huge \bfseries \@title}
-			  \vspace{0.5cm}
-			  {\Large \subtitle}
-			\end{spacing}
+				\vspace{-3.5cm}
+		    
+		    {\large DISS. ETH NO. \dissno}
+		    
+		    \vspace{3cm}
+		
+			  {\huge \bfseries \MakeUppercase \@title}
+			  
+			  \vspace{2.5cm}
+			  
+			  \large
+			  
+			  A thesis submitted to attain the degree of \\[12pt] DOCTOR OF SCIENCES \\[12pt] (Dr. sc. ETH Zürich)
+
+		    \vspace{1.5cm}
+
+			  Presented by \\[12pt]  \MakeUppercase{\@author} \\[12pt] MA, University of Zürich, Switzerland
+		
+		    \vspace{1.5cm}
+		    
+		    born on 04.01.1991 \\[12pt] citizen of Poland and the United States of America
+		    
+		    \vspace{2cm}
+		    
+		    accepted on the recommendation 
+		    \\[18pt] Prof. Dr. Isabel Günther (ETH Zürich, Examiner)
+		    \\[18pt] Prof. Dr. Ursula Renold (ETH Zürich, Co-examiner)
+		    \\[18pt] Prof. Dr. Paola Monserrat (University of Chile, Co-examiner)
+		    
+		     \vspace{3cm}
+		     
+		     2023
 		\end{center}
-		\vspace{0.4cm}
-		
-		\begin{center}
-			\large
-			\@author
-		\end{center}%
-		
-		\vspace{3cm}
-		
-		\begin{center}
-			\textbf{Supervisors:} \\[2pt] \supervisors
-		\end{center}
-
-		\vspace{0.2cm}
-		
-		\begin{center}
-			\@date
-		\end{center}
-
-    \@thanks
-
     \end{titlepage}
     }
 \makeatother
 
 \renewcommand*{\thefootnote}{\arabic{footnote}}
 \setcounter{footnote}{0}
+
+\pagenumbering{roman}
 
 \begin{document}
 $if(has-frontmatter)$
@@ -344,10 +349,10 @@ $if(title)$
 $endif$
 
 \chapter*{Acknowledgments}
-\acknowledgments
+\input{chapters/acknowledgements}
 
 \chapter*{Abstract}
-\bigabstract
+\input{chapters/bigabstract}
 \vspace{0.5cm}
 $if(jel)$
 
@@ -363,6 +368,8 @@ $if(jel)$
 \listoffigures
 \listoftables
 \newpage
+
+\pagenumbering{arabic}
 
 $for(include-before)$
 $include-before$
