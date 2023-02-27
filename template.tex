@@ -9,17 +9,38 @@ $endif$
 $endif$
 %
 \documentclass[
-  11pt,
 $if(lang)$
   $babel-lang$,
 $endif$
-a4paper
 $for(classoption)$
   $classoption$$sep$,
 $endfor$
 ]{report}
 
 % Options added by Bart
+
+\makeatletter
+\def\@pnum@font{\bfseries}% Default is \bfseries
+\renewcommand*\l@chapter[2]{% Taken from book.cls
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss\@pnum@font #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+  $if(has-frontmatter)$
+\g@addto@macro{\frontmatter}{\addtocontents{toc}{\protect\def\protect\@pnum@font{\normalfont}}}
+\g@addto@macro{\mainmatter}{\addtocontents{toc}{\protect\def\protect\@pnum@font{\bfseries}}}
+$endif$
+\makeatother
 
 \NewDocumentCommand{\rot}{O{45} O{1em} m}{\makebox[#2][l]{\rotatebox{#1}{#3}}}%
 
@@ -34,6 +55,10 @@ $endfor$
 \renewcommand{\l@table}{\@dottedtocline{1}{1.5em}{3em}}
 \renewcommand{\l@figure}{\@dottedtocline{1}{1.5em}{3em}}
 \makeatother
+
+\setlength{\headheight}{13.59999pt}
+
+
 
 % Set up fonts
 
@@ -139,7 +164,11 @@ $endif$
 $if(verbatim-in-note)$
 \VerbatimFootnotes % allow verbatim text in footnotes
 $endif$
-\usepackage[a4paper]{geometry}
+\usepackage[
+$for(geometry)$
+  $geometry$$sep$,
+$endfor$
+]{geometry}
 $if(listings)$
 \usepackage{listings}
 \newcommand{\passthrough}[1]{#1}
@@ -262,14 +291,17 @@ $endif$
         \pagestyle{fancy}}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhf[leh,roh]{\thepage}
-\fancyhf[loh,reh]{\slshape\leftmark}
+\fancyhf[leh,roh]{\small\thepage}
+\fancyhf[reh]{\slshape\leftmark}
+\fancyhf[loh]{\slshape\rightmark}
+\renewcommand{\sectionmark}[1]{\markright{#1}} %gets rid of section number
 
 \makeatletter
 \newenvironment{chapabstract}{%
     \begin{center}%
       \bfseries Abstract
     \end{center}}%
+    \singlespacing
    {\par}
 \makeatother
 
@@ -280,7 +312,6 @@ $endif$
     $if(title)$
     \title{$title$}
     $endif$
-  
     
     \author{
     $for(author)$$author.name$$if(author.affiliation)$\thanks{
@@ -289,26 +320,26 @@ $endif$
     $endfor$
     }
 
-		\includegraphics[viewport=90 -45 0 -60]{figures/logo.jpg} \hfill
+		\includegraphics[viewport=75 -45 0 -60]{figures/logo.jpg} \hfill
 
 		\begin{center}
-				\vspace{-3.5cm}
+				\vspace{-3cm}
 		    
-		    {\large DISS. ETH NO. \dissno}
+		    {DISS. ETH NO. \dissno}
 		    
 		    \vspace{3cm}
 		
-			  {\huge \bfseries \MakeUppercase \@title}
+			  {\large\bfseries \MakeUppercase \@title}
 			  
 			  \vspace{2.5cm}
 			  
-			  \large
+			  \normalsize
 			  
 			  A thesis submitted to attain the degree of \\[12pt] DOCTOR OF SCIENCES \\[12pt] (Dr. sc. ETH Zürich)
 
 		    \vspace{1.5cm}
 
-			  Presented by \\[12pt]  \MakeUppercase{\@author} \\[12pt] MA, University of Zürich, Switzerland
+			  Presented by \\[12pt]  \MakeUppercase{\@author} \\[12pt] M.A., University of Zürich, Switzerland
 		
 		    \vspace{1.5cm}
 		    
@@ -316,7 +347,7 @@ $endif$
 		    
 		    \vspace{2cm}
 		    
-		    accepted on the recommendation 
+		    accepted on the recommendation of
 		    \\[18pt] Prof. Dr. Isabel Günther (ETH Zürich, Examiner)
 		    \\[18pt] Prof. Dr. Ursula Renold (ETH Zürich, Co-examiner)
 		    \\[18pt] Prof. Dr. Paola Monserrat (University of Chile, Co-examiner)
@@ -324,6 +355,9 @@ $endif$
 		     \vspace{3cm}
 		     
 		     2023
+		     
+		     \newpage
+		     
 		\end{center}
     \end{titlepage}
     }
@@ -332,7 +366,7 @@ $endif$
 \renewcommand*{\thefootnote}{\arabic{footnote}}
 \setcounter{footnote}{0}
 
-\pagenumbering{roman}
+\def\thepage{\textit{\roman{page}}}
 
 \begin{document}
 $if(has-frontmatter)$
@@ -348,11 +382,20 @@ $if(title)$
 \thispagestyle{empty} % Need to put after \maketitle
 $endif$
 
+\makeatletter\addtocontents{toc}{\protect\def\protect\@pnum@font{\normalfont}}\makeatother
+
+\restoregeometry
+
+\input{chapters/quotes}
+\newpage
+
 \chapter*{Acknowledgments}
 \input{chapters/acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements} 
 
 \chapter*{Abstract}
 \input{chapters/bigabstract}
+\addcontentsline{toc}{chapter}{Abstract} 
 \vspace{0.5cm}
 $if(jel)$
 
@@ -363,13 +406,15 @@ $if(jel)$
   \noindent \textbf{Keywords}: $for(keywords)$$keywords$$sep$, $endfor$
   $endif$
 
-
 \tableofcontents
 \listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoftables
+\addcontentsline{toc}{chapter}{\listtablename}
 \newpage
 
 \pagenumbering{arabic}
+\makeatletter\addtocontents{toc}{\protect\def\protect\@pnum@font{\bfseries}}\makeatother
 
 $for(include-before)$
 $include-before$
@@ -379,6 +424,7 @@ $if(has-frontmatter)$
 \mainmatter
 $endif$
 $body$
+
 
 $if(has-frontmatter)$
 \backmatter
