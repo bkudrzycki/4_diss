@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.15)  11 AUG 2023 11:54
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.15)  11 AUG 2023 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,72 +1096,203 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box68
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen268
+\WF@size=\dimen269
+\c@WF@wrappedlines=\count338
+\WF@box=\box69
+\WF@everypar=\toks33
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip101
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+\c@taburow=\count339
+\tabu@nbcols=\count340
+\tabu@cnt=\count341
+\tabu@Xcol=\count342
+\tabu@alloc=\count343
+\tabu@nested=\count344
+\tabu@target=\dimen270
+\tabu@spreadtarget=\dimen271
+\tabu@naturalX=\dimen272
+\tabucolX=\dimen273
+\tabu@Xsum=\dimen274
+\extrarowdepth=\dimen275
+\abovetabulinesep=\dimen276
+\belowtabulinesep=\dimen277
+\tabustrutrule=\dimen278
+\tabu@thebody=\toks35
+\tabu@footnotes=\toks36
+\tabu@box=\box70
+\tabu@arstrutbox=\box71
+\tabu@hleads=\box72
+\tabu@vleads=\box73
+\tabu@cellskip=\skip102
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/threeparttablex/threeparttablex.s
+ty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(/usr/local/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip103
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box74
+\UL@hyphenbox=\box75
+\UL@skip=\skip104
+\UL@hook=\toks37
+\UL@height=\dimen279
+\UL@pe=\count345
+\UL@pixel=\dimen280
+\ULC@box=\box76
+Package: ulem 2019/11/18
+\ULdepth=\dimen281
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen282
+\c@nlinenum=\count346
+\TeXr@lab=\toks38
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count347
+\mult@box=\box77
+\multicol@leftmargin=\dimen283
+\c@unbalance=\count348
+\c@collectmore=\count349
+\doublecol@number=\count350
+\multicoltolerance=\count351
+\multicolpretolerance=\count352
+\full@width=\dimen284
+\page@free=\dimen285
+\premulticols=\dimen286
+\postmulticols=\dimen287
+\multicolsep=\skip105
+\multicolbaselineskip=\skip106
+\partial@page=\box78
+\last@line=\box79
+\maxbalancingoverflow=\dimen288
+\mult@rightbox=\box80
+\mult@grightbox=\box81
+\mult@firstbox=\box82
+\mult@gfirstbox=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\c@minrows=\count353
+\c@columnbadness=\count354
+\c@finalcolumnbadness=\count355
+\last@try=\dimen289
+\multicolovershoot=\dimen290
+\multicolundershoot=\dimen291
+\mult@nat@firstbox=\box120
+\colbreak@box=\box121
+\mc@col@check@num=\count356
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count338
+\lrq@indent=\count357
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count339
-\c@listtotal=\count340
-\c@listcount=\count341
-\c@liststart=\count342
-\c@liststop=\count343
-\c@citecount=\count344
-\c@citetotal=\count345
-\c@multicitecount=\count346
-\c@multicitetotal=\count347
-\c@instcount=\count348
-\c@maxnames=\count349
-\c@minnames=\count350
-\c@maxitems=\count351
-\c@minitems=\count352
-\c@citecounter=\count353
-\c@maxcitecounter=\count354
-\c@savedcitecounter=\count355
-\c@uniquelist=\count356
-\c@uniquename=\count357
-\c@refsection=\count358
-\c@refsegment=\count359
-\c@maxextratitle=\count360
-\c@maxextratitleyear=\count361
-\c@maxextraname=\count362
-\c@maxextradate=\count363
-\c@maxextraalpha=\count364
-\c@abbrvpenalty=\count365
-\c@highnamepenalty=\count366
-\c@lownamepenalty=\count367
-\c@maxparens=\count368
-\c@parenlevel=\count369
-\blx@tempcnta=\count370
-\blx@tempcntb=\count371
-\blx@tempcntc=\count372
-\c@blx@maxsection=\count373
-\c@blx@maxsegment@0=\count374
-\blx@notetype=\count375
-\blx@parenlevel@text=\count376
-\blx@parenlevel@foot=\count377
-\c@blx@sectionciteorder@0=\count378
-\blx@entrysetcounter=\count379
-\blx@biblioinstance=\count380
-\labelnumberwidth=\skip101
-\labelalphawidth=\skip102
-\biblabelsep=\skip103
-\bibitemsep=\skip104
-\bibnamesep=\skip105
-\bibinitsep=\skip106
-\bibparsep=\skip107
-\bibhang=\skip108
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\c@blx@maxsection=\count392
+\c@blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\c@blx@sectionciteorder@0=\count397
+\blx@entrysetcounter=\count398
+\blx@biblioinstance=\count399
+\labelnumberwidth=\skip107
+\labelalphawidth=\skip108
+\biblabelsep=\skip109
+\bibitemsep=\skip110
+\bibnamesep=\skip111
+\bibinitsep=\skip112
+\bibparsep=\skip113
+\bibhang=\skip114
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count381
-\c@maxcomprange=\count382
-\c@mincompwidth=\count383
+\c@mincomprange=\count400
+\c@maxcomprange=\count401
+\c@mincompwidth=\count402
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1171,88 +1302,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count384
-\c@savedafterword=\count385
-\c@annotator=\count386
-\c@savedannotator=\count387
-\c@author=\count388
-\c@savedauthor=\count389
-\c@bookauthor=\count390
-\c@savedbookauthor=\count391
-\c@commentator=\count392
-\c@savedcommentator=\count393
-\c@editor=\count394
-\c@savededitor=\count395
-\c@editora=\count396
-\c@savededitora=\count397
-\c@editorb=\count398
-\c@savededitorb=\count399
-\c@editorc=\count400
-\c@savededitorc=\count401
-\c@foreword=\count402
-\c@savedforeword=\count403
-\c@holder=\count404
-\c@savedholder=\count405
-\c@introduction=\count406
-\c@savedintroduction=\count407
-\c@namea=\count408
-\c@savednamea=\count409
-\c@nameb=\count410
-\c@savednameb=\count411
-\c@namec=\count412
-\c@savednamec=\count413
-\c@translator=\count414
-\c@savedtranslator=\count415
-\c@shortauthor=\count416
-\c@savedshortauthor=\count417
-\c@shorteditor=\count418
-\c@savedshorteditor=\count419
-\c@labelname=\count420
-\c@savedlabelname=\count421
-\c@institution=\count422
-\c@savedinstitution=\count423
-\c@lista=\count424
-\c@savedlista=\count425
-\c@listb=\count426
-\c@savedlistb=\count427
-\c@listc=\count428
-\c@savedlistc=\count429
-\c@listd=\count430
-\c@savedlistd=\count431
-\c@liste=\count432
-\c@savedliste=\count433
-\c@listf=\count434
-\c@savedlistf=\count435
-\c@location=\count436
-\c@savedlocation=\count437
-\c@organization=\count438
-\c@savedorganization=\count439
-\c@origlocation=\count440
-\c@savedoriglocation=\count441
-\c@origpublisher=\count442
-\c@savedorigpublisher=\count443
-\c@publisher=\count444
-\c@savedpublisher=\count445
-\c@language=\count446
-\c@savedlanguage=\count447
-\c@origlanguage=\count448
-\c@savedoriglanguage=\count449
-\c@pageref=\count450
-\c@savedpageref=\count451
-\shorthandwidth=\skip109
-\shortjournalwidth=\skip110
-\shortserieswidth=\skip111
-\shorttitlewidth=\skip112
-\shortauthorwidth=\skip113
-\shorteditorwidth=\skip114
-\locallabelnumberwidth=\skip115
-\locallabelalphawidth=\skip116
-\localshorthandwidth=\skip117
-\localshortjournalwidth=\skip118
-\localshortserieswidth=\skip119
-\localshorttitlewidth=\skip120
-\localshortauthorwidth=\skip121
-\localshorteditorwidth=\skip122
+\c@afterword=\count403
+\c@savedafterword=\count404
+\c@annotator=\count405
+\c@savedannotator=\count406
+\c@author=\count407
+\c@savedauthor=\count408
+\c@bookauthor=\count409
+\c@savedbookauthor=\count410
+\c@commentator=\count411
+\c@savedcommentator=\count412
+\c@editor=\count413
+\c@savededitor=\count414
+\c@editora=\count415
+\c@savededitora=\count416
+\c@editorb=\count417
+\c@savededitorb=\count418
+\c@editorc=\count419
+\c@savededitorc=\count420
+\c@foreword=\count421
+\c@savedforeword=\count422
+\c@holder=\count423
+\c@savedholder=\count424
+\c@introduction=\count425
+\c@savedintroduction=\count426
+\c@namea=\count427
+\c@savednamea=\count428
+\c@nameb=\count429
+\c@savednameb=\count430
+\c@namec=\count431
+\c@savednamec=\count432
+\c@translator=\count433
+\c@savedtranslator=\count434
+\c@shortauthor=\count435
+\c@savedshortauthor=\count436
+\c@shorteditor=\count437
+\c@savedshorteditor=\count438
+\c@labelname=\count439
+\c@savedlabelname=\count440
+\c@institution=\count441
+\c@savedinstitution=\count442
+\c@lista=\count443
+\c@savedlista=\count444
+\c@listb=\count445
+\c@savedlistb=\count446
+\c@listc=\count447
+\c@savedlistc=\count448
+\c@listd=\count449
+\c@savedlistd=\count450
+\c@liste=\count451
+\c@savedliste=\count452
+\c@listf=\count453
+\c@savedlistf=\count454
+\c@location=\count455
+\c@savedlocation=\count456
+\c@organization=\count457
+\c@savedorganization=\count458
+\c@origlocation=\count459
+\c@savedoriglocation=\count460
+\c@origpublisher=\count461
+\c@savedorigpublisher=\count462
+\c@publisher=\count463
+\c@savedpublisher=\count464
+\c@language=\count465
+\c@savedlanguage=\count466
+\c@origlanguage=\count467
+\c@savedoriglanguage=\count468
+\c@pageref=\count469
+\c@savedpageref=\count470
+\shorthandwidth=\skip115
+\shortjournalwidth=\skip116
+\shortserieswidth=\skip117
+\shorttitlewidth=\skip118
+\shortauthorwidth=\skip119
+\shorteditorwidth=\skip120
+\locallabelnumberwidth=\skip121
+\locallabelalphawidth=\skip122
+\localshorthandwidth=\skip123
+\localshortjournalwidth=\skip124
+\localshortserieswidth=\skip125
+\localshorttitlewidth=\skip126
+\localshortauthorwidth=\skip127
+\localshorteditorwidth=\skip128
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -1265,19 +1396,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count452
-\c@textcitetotal=\count453
-\c@textcitemaxnames=\count454
-\c@biburlbigbreakpenalty=\count455
-\c@biburlbreakpenalty=\count456
-\c@biburlnumpenalty=\count457
-\c@biburlucpenalty=\count458
-\c@biburllcpenalty=\count459
+\c@textcitecount=\count471
+\c@textcitetotal=\count472
+\c@textcitemaxnames=\count473
+\c@biburlbigbreakpenalty=\count474
+\c@biburlbreakpenalty=\count475
+\c@biburlnumpenalty=\count476
+\c@biburlucpenalty=\count477
+\c@biburllcpenalty=\count478
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count460
+\c@smartand=\count479
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1287,8 +1418,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count461
-\c@bbx:relatedtotal=\count462
+\c@bbx:relatedcount=\count480
+\c@bbx:relatedtotal=\count481
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1317,35 +1448,39 @@ Package biblatex Info: ... and expl3
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-\@quotelevel=\count463
-\@quotereset=\count464
-(./diss.aux)
+\@quotelevel=\count482
+\@quotereset=\count483
+(./diss.aux
+
+LaTeX Warning: Label `tab:tbl-matrix' multiply defined.
+
+)
 \openout1 = `diss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 253.
-LaTeX Font Info:    ... okay on input line 253.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen268
-\caption@adjustwidth@linewidth=\dimen269
+\caption@adjustwidth@hsize=\dimen292
+\caption@adjustwidth@linewidth=\dimen293
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1353,19 +1488,20 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
-\flrow@LT@lasthead=\box69
-\flrow@LT@prelastfoot=\box70
-\c@FBLTpage=\count465
+\flrow@LT@lasthead=\box122
+\flrow@LT@prelastfoot=\box123
+\c@FBLTpage=\count484
 )
-LaTeX Info: Redefining \microtypecontext on input line 253.
-Package microtype Info: Applying patch `item' on input line 253.
-Package microtype Info: Applying patch `toc' on input line 253.
-Package microtype Info: Applying patch `eqnum' on input line 253.
-Package microtype Info: Applying patch `footnote' on input line 253.
+LaTeX Info: Redefining \microtypecontext on input line 266.
+Package microtype Info: Applying patch `item' on input line 266.
+Package microtype Info: Applying patch `toc' on input line 266.
+Package microtype Info: Applying patch `eqnum' on input line 266.
+Package microtype Info: Applying patch `footnote' on input line 266.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1375,7 +1511,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `texgyrepagella' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 253.
+Package hyperref Info: Link coloring ON on input line 266.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1385,11 +1521,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count466
+\c@section@level=\count485
 )
-LaTeX Info: Redefining \ref on input line 253.
-LaTeX Info: Redefining \pageref on input line 253.
-LaTeX Info: Redefining \nameref on input line 253.
+LaTeX Info: Redefining \ref on input line 266.
+LaTeX Info: Redefining \pageref on input line 266.
+LaTeX Info: Redefining \nameref on input line 266.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1438,8 +1574,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'diss.bbl' found.
 (./diss.bbl)
-Package biblatex Info: Reference section=0 on input line 253.
-Package biblatex Info: Reference segment=0 on input line 253.
+Package biblatex Info: Reference section=0 on input line 266.
+Package biblatex Info: Reference segment=0 on input line 266.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1481,25 +1617,25 @@ File: figures/logo.jpg Graphic file (type bmp)
 ] (./chapters/quotes.tex) [2
 
 ]
-Package biblatex Info: Reference segment=1 on input line 269.
-Package biblatex Info: Setting label 'refsegment:01' on input line 269.
+Package biblatex Info: Reference segment=1 on input line 282.
+Package biblatex Info: Setting label 'refsegment:01' on input line 282.
 (./chapters/acknowledgements.tex) [3
 
 ]
 LaTeX Font Info:    Font shape `TU/texgyrepagella(0)/m/sl' in size <12> not ava
 ilable
 (Font)              Font shape `TU/texgyrepagella(0)/m/it' tried instead on inp
-ut line 273.
+ut line 286.
 [4
 
 ]
-Package biblatex Info: Reference segment=2 on input line 273.
-Package biblatex Info: Setting label 'refsegment:02' on input line 273.
+Package biblatex Info: Reference segment=2 on input line 286.
+Package biblatex Info: Setting label 'refsegment:02' on input line 286.
 (./chapters/bigabstract.tex) [5] [6
 
 ]
-Package biblatex Info: Reference segment=3 on input line 282.
-Package biblatex Info: Setting label 'refsegment:03' on input line 282.
+Package biblatex Info: Reference segment=3 on input line 295.
+Package biblatex Info: Setting label 'refsegment:03' on input line 295.
 (./diss.toc
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
 (Font)              scaled to size 12.00128pt on input line 8.
@@ -1524,36 +1660,95 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [7])
+) [7]
+Overfull \hbox (0.40796pt too wide) detected at line 53
+ []\TU/texgyrepagella(0)/m/n/12 202
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `diss.toc'.
 
 [8]
-Package biblatex Info: Reference segment=4 on input line 283.
-Package biblatex Info: Setting label 'refsegment:04' on input line 283.
-(./diss.lof)
+Package biblatex Info: Reference segment=4 on input line 296.
+Package biblatex Info: Setting label 'refsegment:04' on input line 296.
+(./diss.lof [9
+
+]
+Overfull \hbox (0.27597pt too wide) detected at line 35
+ []\TU/texgyrepagella(0)/m/n/12 206
+ []
+
+
+Overfull \hbox (0.47997pt too wide) detected at line 36
+ []\TU/texgyrepagella(0)/m/n/12 207
+ []
+
+
+Overfull \hbox (0.25197pt too wide) detected at line 37
+ []\TU/texgyrepagella(0)/m/n/12 208
+ []
+
+
+Overfull \hbox (0.28796pt too wide) detected at line 38
+ []\TU/texgyrepagella(0)/m/n/12 209
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `diss.lof'.
 
-[9
+[10]
+Package biblatex Info: Reference segment=5 on input line 298.
+Package biblatex Info: Setting label 'refsegment:05' on input line 298.
+(./diss.lot
 
-] [10
+Package fontspec Info: Font family 'Palatino(0)' created for font 'Palatino'
+(fontspec)             with options [Ligatures={TeX},Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Palatino/AAT:mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Palatino/B/AAT:mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Palatino/I/AAT:mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Palatino/BI/AAT:mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-Palatino.cfg
+File: mt-Palatino.cfg 2012/03/10 v1.0 microtype config. file: Palatino and simi
+lar fonts (LBD)
+) [11
 
 ]
-Package biblatex Info: Reference segment=5 on input line 285.
-Package biblatex Info: Setting label 'refsegment:05' on input line 285.
-(./diss.lot)
+Overfull \hbox (0.44397pt too wide) detected at line 66
+ []\TU/texgyrepagella(0)/m/n/12 200
+ []
+
+
+Overfull \hbox (0.40796pt too wide) detected at line 68
+ []\TU/texgyrepagella(0)/m/n/12 202
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `diss.lot'.
 
-[11]
+[12]
 Chapter 1.
-Package biblatex Info: Reference segment=6 on input line 297.
-Package biblatex Info: Setting label 'refsegment:06' on input line 297.
+Package biblatex Info: Reference segment=6 on input line 310.
+Package biblatex Info: Setting label 'refsegment:06' on input line 310.
 [1
 
 ]
-Underfull \hbox (badness 1348) in paragraph at lines 312--313
+Underfull \hbox (badness 1348) in paragraph at lines 325--326
 []\TU/texgyrepagella(0)/m/n/12 Participation in the informal sector is generall
 y concave (or inverted U-
  []
@@ -1562,29 +1757,29 @@ y concave (or inverted U-
 File: figures/fig-neet-1.pdf Graphic file (type pdf)
 <use figures/fig-neet-1.pdf>
 [6] [7]
-Underfull \hbox (badness 1430) in paragraph at lines 405--406
+Underfull \hbox (badness 1430) in paragraph at lines 418--419
 []\TU/texgyrepagella(0)/m/n/12 A third empirical approach to transition is to s
 tudy transition matrices.
  []
 
 [8] [9] [10]
-Underfull \hbox (badness 1874) in paragraph at lines 448--449
+Underfull \hbox (badness 1874) in paragraph at lines 461--462
 []\TU/texgyrepagella(0)/m/n/12 optimal matching analysis for labor market analy
 sis in high-
  []
 
 [11]
-Underfull \hbox (badness 2409) in paragraph at lines 484--488
+Underfull \hbox (badness 2409) in paragraph at lines 497--501
 []\TU/texgyrepagella(0)/m/n/12 What are the factors that contribute to the succ
 ess of informal micro-
  []
 
 [12] [13] [14]
 Chapter 2.
-Package biblatex Info: Reference segment=7 on input line 510.
-Package biblatex Info: Setting label 'refsegment:07' on input line 510.
+Package biblatex Info: Reference segment=7 on input line 523.
+Package biblatex Info: Setting label 'refsegment:07' on input line 523.
 
-Underfull \hbox (badness 1910) in paragraph at lines 515--516
+Underfull \hbox (badness 1910) in paragraph at lines 528--529
 \TU/texgyrepagella(0)/m/n/12 This paper introduces the Youth Labor Index for Lo
 wer-Income Countries
  []
@@ -1592,16 +1787,14 @@ wer-Income Countries
 [15
 
 ] [16]
-Underfull \hbox (badness 2401) in paragraph at lines 531--532
+Underfull \hbox (badness 2401) in paragraph at lines 544--545
 []\TU/texgyrepagella(0)/m/n/12 The YLILI suggests that, among low-income and lo
 wer-middle income
  []
 
 [17] [18]
-
-LaTeX Warning: Reference `fig:fig-infunemp' on page 19 undefined on input line 
-542.
-
+File: figures/fig-infunemp-1.pdf Graphic file (type pdf)
+<use figures/fig-infunemp-1.pdf>
 [19] [20] (./tables/indicators.tex
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.95116pt on input line 35.
@@ -1642,133 +1835,69 @@ Overfull \hbox (2.47813pt too wide) in paragraph at lines 35--35
 
 ) [21] [22]
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 567.
+(Font)              scaled to size 10.00107pt on input line 584.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 567.
+(Font)              scaled to size 7.00075pt on input line 584.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 567.
+(Font)              scaled to size 5.00053pt on input line 584.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 567.
+(Font)              scaled to size 9.99893pt on input line 584.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 567.
+(Font)              scaled to size 6.99925pt on input line 584.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 567.
+(Font)              scaled to size 4.99947pt on input line 584.
 [23] [24]
-Underfull \hbox (badness 1337) in paragraph at lines 590--591
+Underfull \hbox (badness 1337) in paragraph at lines 607--608
 \TU/texgyrepagella(0)/m/n/12 According to the most recent estimates from the IL
 O, about 12 percent of
  []
 
-[25] [26] [27] [28] [29] [30] (./tables/lastyear.tex) [31]
-
-LaTeX Warning: Reference `fig:fig-spider' on page 32 undefined on input line 63
-9.
-
-(./tables/ranking.tex [32] [33])
-
-LaTeX Warning: Reference `fig:fig-cormat' on page 34 undefined on input line 65
-0.
-
-[34]
-
-LaTeX Warning: Reference `tab:tbl-macrocorr' on page 35 undefined on input line
- 659.
-
-[35]
-
-LaTeX Warning: Reference `tab:tbl-macrocorr' on page 36 undefined on input line
- 665.
-
-
-LaTeX Warning: Reference `fig:fig-indexunemp' on page 36 undefined on input lin
-e 665.
-
-
-LaTeX Warning: Reference `tab:tbl-macrocorr' on page 36 undefined on input line
- 667.
-
-
-LaTeX Warning: Reference `tab:tbl-macrocorr' on page 36 undefined on input line
- 669.
-
-
-LaTeX Warning: Reference `fig:fig-indexgdp' on page 36 undefined on input line 
-669.
-
-[36]
+[25] [26] [27] [28] [29] [30] [31] (./tables/lastyear.tex) [32] (./tables/ranki
+ng.tex [33]) [34] [35] [36] [37]
 File: figures/relative_population.png Graphic file (type bmp)
 <figures/relative_population.png>
 File: figures/total_population.png Graphic file (type bmp)
 <figures/total_population.png>
-[37]
-
-LaTeX Warning: Reference `tab:tbl-regwide' on page 38 undefined on input line 6
-91.
-
-
-LaTeX Warning: Reference `fig:fig-indexgdp' on page 38 undefined on input line 
-691.
-
-[38]
-
-LaTeX Warning: Reference `tab:tbl-regwide' on page 39 undefined on input line 6
-95.
-
-
-LaTeX Warning: Reference `tab:tbl-regwide' on page 39 undefined on input line 6
-97.
-
-[39] [40]
-
-LaTeX Warning: Reference `tab:tbl-gender' on page 41 undefined on input line 70
-8.
-
-
-LaTeX Warning: Reference `fig:fig-gendercorr' on page 41 undefined on input lin
-e 708.
-
-
-LaTeX Warning: Reference `fig:fig-gendercorr' on page 41 undefined on input lin
-e 710.
-
-[41]
-Underfull \hbox (badness 1122) in paragraph at lines 714--715
+[38] [39] [40] [41] [42] [43]
+File: figures/fig-gendercorr-1.pdf Graphic file (type pdf)
+<use figures/fig-gendercorr-1.pdf>
+[44]
+Underfull \hbox (badness 1122) in paragraph at lines 825--826
 \TU/texgyrepagella(0)/m/n/12 imbalance in the education dimension—1.86 points h
 igher for males—there
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 714--715
+Underfull \hbox (badness 1394) in paragraph at lines 825--826
 \TU/texgyrepagella(0)/m/n/12 is significant underlying variation between countr
 ies and within individual
  []
 
-[42] (./tables/altspecs.tex
-Overfull \hbox (13.62503pt too wide) in paragraph at lines 8--21
+[45] (./tables/altspecs.tex
+Overfull \hbox (13.62483pt too wide) in paragraph at lines 8--21
 [][] 
  []
 
 
-Overfull \hbox (9.46872pt too wide) detected at line 25
+Overfull \hbox (9.46863pt too wide) detected at line 25
  [] 
  []
 
-)
-
-LaTeX Warning: Reference `fig:fig-arithgeom' on page 43 undefined on input line
- 727.
-
-
-LaTeX Warning: Reference `fig:fig-imputedraw' on page 43 undefined on input lin
-e 727.
-
-[43] [44] [45] [46] [47] [48] [49] [50]
-Underfull \hbox (badness 1231) in paragraph at lines 750--750
+) [46] [47] [48] [49] [50] [51] [52] [53]
+Underfull \hbox (badness 1231) in paragraph at lines 861--861
 \TU/texgyrepagella(0)/m/n/12 United Nations Development Programme (UNDP) 2019. 
 New York, NY:
  []
 
-[51] [52] [53] [54]
+[54] [55] [56]
+File: figures/fig-indexgdp-1.pdf Graphic file (type pdf)
+<use figures/fig-indexgdp-1.pdf>
+File: figures/fig-indexunemp-1.pdf Graphic file (type pdf)
+<use figures/fig-indexunemp-1.pdf>
+[57]
+File: figures/fig-cormat-1.pdf Graphic file (type pdf)
+<use figures/fig-cormat-1.pdf>
+[58] [59]
 File: figures/stacked_highincome.png Graphic file (type bmp)
 <figures/stacked_highincome.png>
 File: figures/stacked_lowermiddle.png Graphic file (type bmp)
@@ -1781,7 +1910,7 @@ File: figures/pp_ssa.png Graphic file (type bmp)
 <figures/pp_ssa.png>
 File: figures/pp_world.png Graphic file (type bmp)
 <figures/pp_world.png>
-[55] (./tables/kofcomparison.tex
+[60] (./tables/kofcomparison.tex
 Overfull \hbox (7.79637pt too wide) in paragraph at lines 38--38
 [][] 
  []
@@ -1820,18 +1949,18 @@ Overfull \hbox (1.32838pt too wide) in paragraph at lines 38--38
 [][] 
  []
 
-) [56] (./tables/number.tex) [57] (./tables/coverage.tex) [58] (./tables/availa
-bility.tex [59] [60])
+) [61] (./tables/number.tex) [62] (./tables/coverage.tex) [63] (./tables/availa
+bility.tex [64] [65])
 File: figures/maps/NEET_total.png Graphic file (type bmp)
 <figures/maps/NEET_total.png>
 File: figures/maps/wcratio_total.png Graphic file (type bmp)
 <figures/maps/wcratio_total.png>
 File: figures/maps/skillsmismatch_total.png Graphic file (type bmp)
 <figures/maps/skillsmismatch_total.png>
-[61]
+[66]
 Overfull \vbox (67.14398pt too high) has occurred while \output is active []
 
-[62]
+[67]
 File: figures/maps/workingpoverty_total.png Graphic file (type bmp)
 <figures/maps/workingpoverty_total.png>
 File: figures/maps/underemployment_total.png Graphic file (type bmp)
@@ -1843,7 +1972,7 @@ File: figures/maps/elementaryoccup_total.png Graphic file (type bmp)
 
 Overfull \vbox (29.6236pt too high) has occurred while \output is active []
 
-[63]
+[68]
 File: figures/maps/secondaryeduc_total.png Graphic file (type bmp)
 <figures/maps/secondaryeduc_total.png>
 File: figures/maps/illiteracy_total.png Graphic file (type bmp)
@@ -1853,7 +1982,7 @@ File: figures/maps/harmonizedtest_total.png Graphic file (type bmp)
 
 Overfull \vbox (28.75299pt too high) has occurred while \output is active []
 
-[64]
+[69]
 File: figures/maps/YLILI_total.png Graphic file (type bmp)
 <figures/maps/YLILI_total.png>
 File: figures/maps/transition_total.png Graphic file (type bmp)
@@ -1862,385 +1991,313 @@ File: figures/maps/working_conditions_total.png Graphic file (type bmp)
 <figures/maps/working_conditions_total.png>
 File: figures/maps/education_total.png Graphic file (type bmp)
 <figures/maps/education_total.png>
-[65]
+[70]
 Overfull \vbox (25.04176pt too high) has occurred while \output is active []
 
-[66] (./tables/ranking_bygender.tex [67]) [68] (./tables/dimensions_bygender.te
-x
-Overfull \hbox (39.35709pt too wide) in alignment at lines 4--80
+[71]
+File: figures/fig-spider-1.pdf Graphic file (type pdf)
+<use figures/fig-spider-1.pdf>
+File: figures/fig-spider-2.pdf Graphic file (type pdf)
+<use figures/fig-spider-2.pdf>
+File: figures/fig-spider-3.pdf Graphic file (type pdf)
+<use figures/fig-spider-3.pdf>
+File: figures/fig-spider-4.pdf Graphic file (type pdf)
+<use figures/fig-spider-4.pdf>
+File: figures/fig-spider-5.pdf Graphic file (type pdf)
+<use figures/fig-spider-5.pdf>
+
+Overfull \vbox (57.29941pt too high) has occurred while \output is active []
+
+[72] (./tables/ranking_bygender.tex [73])
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 1060.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 1060.
+[74] [75] (./tables/dimensions_bygender.tex
+Overfull \hbox (39.35689pt too wide) in alignment at lines 4--80
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[69])
+[76])
 File: figures/maps/diff_YLILI.png Graphic file (type bmp)
 <figures/maps/diff_YLILI.png>
-[70]
+[77]
 File: figures/maps/diff_transition.png Graphic file (type bmp)
 <figures/maps/diff_transition.png>
 File: figures/maps/diff_working_conditions.png Graphic file (type bmp)
 <figures/maps/diff_working_conditions.png>
 File: figures/maps/diff_education.png Graphic file (type bmp)
 <figures/maps/diff_education.png>
-[71]
+[78]
 Overfull \vbox (59.70967pt too high) has occurred while \output is active []
 
-[72] [73] (./tables/altscores.tex [74
+[79]
+File: figures/fig-arithgeom-1.pdf Graphic file (type pdf)
+<use figures/fig-arithgeom-1.pdf>
+File: figures/fig-imputedraw-1.pdf Graphic file (type pdf)
+<use figures/fig-imputedraw-1.pdf>
+[80] (./tables/altscores.tex [81
 
-]) [75] [76
-
-
-]
+]) [82]
 Chapter 3.
-Package biblatex Info: Reference segment=8 on input line 954.
-Package biblatex Info: Setting label 'refsegment:08' on input line 954.
-[77] [78] [79] [80] [81] [82]
-
-LaTeX Warning: Reference `tab:tbl-attrition' on page 83 undefined on input line
- 1007.
+Package biblatex Info: Reference segment=8 on input line 1159.
+Package biblatex Info: Setting label 'refsegment:08' on input line 1159.
+[83
 
 
-LaTeX Warning: Reference `tab:tbl-attrition' on page 83 undefined on input line
- 1007.
-
-[83]
-
-LaTeX Warning: Reference `tab:tbl-desc' on page 84 undefined on input line 1016
-.
+] [84] [85] [86] [87] [88] [89]
+Overfull \hbox (1.2045pt too wide) in paragraph at lines 1268--1268
+ []|\TU/texgyrepagella(2)/b/n/10.95 Apprentice  
+ []
 
 
-LaTeX Warning: Reference `tab:tbl-descgender' on page 84 undefined on input lin
-e 1018.
+Overfull \hbox (214.64992pt too wide) in paragraph at lines 1223--1274
+ [] 
+ []
 
-[84] [85]
+[90] [91] [92]
 File: figures/timeline.png Graphic file (type bmp)
 <figures/timeline.png>
-[86] [87] [88]
-
-LaTeX Warning: Reference `tab:tbl-entry' on page 89 undefined on input line 107
-3.
-
-[89]
-
-LaTeX Warning: Reference `tab:tbl-entry-full' on page 90 undefined on input lin
-e 1075.
+[93] [94] [95] [96]
+Overfull \hbox (0.696pt too wide) in paragraph at lines 1341--1341
+ []|\TU/texgyrepagella(2)/b/n/8 Employed 
+ []
 
 
-LaTeX Warning: Reference `fig:fig-survival' on page 90 undefined on input line 
-1077.
+Overfull \hbox (0.696pt too wide) in paragraph at lines 1341--1342
+ \TU/texgyrepagella(2)/b/n/8 Employed 
+ []
 
-[90] [91]
+[97] [98] [99] [100] [101] [102]
+File: figures/fig-ageplot-1.pdf Graphic file (type pdf)
+<use figures/fig-ageplot-1.pdf>
+[103]
 
-LaTeX Warning: Reference `tab:tbl-firstempreg' on page 92 undefined on input li
-ne 1088.
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures={TeX},Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
-[92]
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-LaTeX Warning: Reference `fig:fig-ageplot' on page 93 undefined on input line 1
-098.
+[104] [105] [106]
+File: figures/fig-clusters-1.pdf Graphic file (type pdf)
+<use figures/fig-clusters-1.pdf>
+[107] [108]
 
+LaTeX Warning: Reference `tbl-clusterreg' on page 109 undefined on input line 1
+661.
 
-LaTeX Warning: Reference `tab:tbl-matrix' on page 93 undefined on input line 11
-04.
-
-[93]
-
-LaTeX Warning: Reference `tab:tbl-matrix' on page 94 undefined on input line 11
-06.
-
-
-LaTeX Warning: Reference `tab:tbl-matrix' on page 94 undefined on input line 11
-08.
-
-[94]
-
-LaTeX Warning: Reference `fig:fig-clusters' on page 95 undefined on input line 
-1119.
-
-
-LaTeX Warning: Reference `tab:tbl-clustertbl' on page 95 undefined on input lin
-e 1119.
-
-
-LaTeX Warning: Reference `tab:tbl-clusterreg' on page 95 undefined on input lin
-e 1119.
-
-
-LaTeX Warning: Reference `tbl-clusterreg' on page 95 undefined on input line 11
-23.
-
-[95] [96] [97]
-
-LaTeX Warning: Reference `tab:tbl-employed' on page 98 undefined on input line 
-1144.
-
-[98]
-
-LaTeX Warning: Reference `tab:tbl-employed' on page 99 undefined on input line 
-1148.
+[109] [110] [111]
+Overfull \hbox (2.933pt too wide) in paragraph at lines 1687--1687
+ []|\TU/texgyrepagella(2)/b/n/7 Overall| 
+ []
 
 
-LaTeX Warning: Reference `tab:tbl-employed' on page 99 undefined on input line 
-1150.
+Overfull \hbox (1.806pt too wide) in paragraph at lines 1687--1687
+ []|\TU/texgyrepagella(2)/b/n/7 Female| 
+ []
 
-[99]
 
-LaTeX Warning: Reference `tab:tbl-propensities' on page 100 undefined on input 
-line 1154.
+Overfull \hbox (9.41765pt too wide) in paragraph at lines 1684--1726
+ [] 
+ []
 
-[100] [101] [102] [103] [104] [105] [106] [107] [108]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
 File: figures/littoral_carte.png Graphic file (type bmp)
 <figures/littoral_carte.png>
-[109]
+[124] [125] [126] [127] [128]
+Overfull \vbox (60.4397pt too high) has occurred while \output is active []
 
-LaTeX Warning: Reference `tab:tbl-census' on page 110 undefined on input line 1
-226.
+[129]
+Overfull \hbox (17.70065pt too wide) in paragraph at lines 2041--2096
+ [] 
+ []
 
-[110] [111] [112] [113] [114
+
+Overfull \vbox (34.52304pt too high) has occurred while \output is active []
+
+[130] [131]
+File: figures/fig-survival-1.pdf Graphic file (type pdf)
+<use figures/fig-survival-1.pdf>
+[132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142
 
 ]
 Chapter 4.
-Package biblatex Info: Reference segment=9 on input line 1350.
-Package biblatex Info: Setting label 'refsegment:09' on input line 1350.
-[115] [116] [117] [118] [119] [120]
+Package biblatex Info: Reference segment=9 on input line 3154.
+Package biblatex Info: Setting label 'refsegment:09' on input line 3154.
+[143] [144] [145] [146] [147] [148] [149]
+File: figures/fig-enrollment-1.pdf Graphic file (type pdf)
+<use figures/fig-enrollment-1.pdf>
+[150] [151] [152] [153] [154] [155]
+Overfull \vbox (12.0055pt too high) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:fig-enrollment' on page 121 undefined on input li
-ne 1398.
+[156] [157] [158] [159] (./tables/tbl-cbmodels.tex) [160] [161] [162] [163] [16
+4]
+Overfull \hbox (16.56868pt too wide) in paragraph at lines 3469--3504
+ [][] 
+ []
 
-[121] [122] [123] [124] [125]
-
-LaTeX Warning: Reference `tab:tbl-cqpdesc' on page 126 undefined on input line 
-1458.
-
-
-LaTeX Warning: Reference `tab:tbl-cqpdesc' on page 126 undefined on input line 
-1466.
-
-[126]
-
-LaTeX Warning: Reference `tab:tbl-attritionapps' on page 127 undefined on input
- line 1468.
-
-
-LaTeX Warning: Reference `tab:tbl-attritionappsreg' on page 127 undefined on in
-put line 1468.
-
-[127]
-
-LaTeX Warning: Reference `tab:tbl-attritionfirms' on page 128 undefined on inpu
-t line 1470.
-
-
-LaTeX Warning: Reference `tab:tbl-attritionfirmsreg' on page 128 undefined on i
-nput line 1470.
-
-[128] (./tables/tbl-cbmodels.tex) [129] [130]
-
-LaTeX Warning: Reference `tab:tbl-allowancebounds' on page 131 undefined on inp
-ut line 1501.
-
-
-LaTeX Warning: Reference `tab:tbl-allowboundsapp' on page 131 undefined on inpu
-t line 1501.
-
-[131] [132]
-
-LaTeX Warning: Reference `tab:tbl-skills' on page 133 undefined on input line 1
-527.
-
-[133]
-
-LaTeX Warning: Reference `tab:tbl-skillschangebycqp' on page 134 undefined on i
-nput line 1531.
-
-
-LaTeX Warning: Reference `tab:tbl-compexp2' on page 134 undefined on input line
- 1531.
-
-
-LaTeX Warning: Reference `tab:tbl-appreg' on page 134 undefined on input line 1
-539.
-
-[134]
-
-LaTeX Warning: Reference `tab:tbl-appreg2' on page 135 undefined on input line 
-1541.
-
-
-LaTeX Warning: Reference `tab:tbl-netappbenefits' on page 135 undefined on inpu
-t line 1543.
-
-[135]
-
-LaTeX Warning: Reference `tab:tbl-netbenefits' on page 136 undefined on input l
-ine 1554.
-
-
-LaTeX Warning: Reference `tab:tbl-netbenefits' on page 136 undefined on input l
-ine 1558.
-
-[136]
-
-LaTeX Warning: Reference `tab:tbl-netbenefits' on page 137 undefined on input l
-ine 1562.
-
-
-LaTeX Warning: Reference `fig:fig-costspie' on page 137 undefined on input line
- 1562.
-
-
-LaTeX Warning: Reference `fig:fig-apphist' on page 137 undefined on input line 
-1564.
-
-[137]
-
-LaTeX Warning: Reference `tab:tbl-appnetbenefitsnodna' on page 138 undefined on
- input line 1566.
-
-
-LaTeX Warning: Reference `tab:tbl-appnetbenefitsbywave' on page 138 undefined o
-n input line 1566.
-
-
-LaTeX Warning: Reference `tab:tbl-appnetbenefitsbytrade' on page 138 undefined 
-on input line 1566.
-
-
-LaTeX Warning: Reference `tab:tbl-cblong' on page 138 undefined on input line 1
-568.
-
-[138]
-
-LaTeX Warning: Reference `tab:tbl-cblong' on page 139 undefined on input line 1
-570.
-
-
-LaTeX Warning: Reference `fig:fig-firmhist' on page 139 undefined on input line
- 1572.
-
-
-LaTeX Warning: Reference `tab:tbl-firmregs' on page 139 undefined on input line
- 1576.
-
-[139] [140] [141] [142]
-Underfull \hbox (badness 1057) in paragraph at lines 1601--1601
+[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [
+178] [179]
+Underfull \hbox (badness 1057) in paragraph at lines 3815--3815
 [][]\TU/texgyrepagella(0)/m/n/12 Allais, Stephanie (July 3, 2022). “Skills for 
 Industrialisation in Sub-Saharan
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1601--1601
+Underfull \hbox (badness 1132) in paragraph at lines 3815--3815
 \TU/texgyrepagella(0)/m/n/12 African Countries: Why Is Systemic Reform of Techn
 ical and Vocational
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 1601--1601
+Underfull \hbox (badness 3838) in paragraph at lines 3815--3815
 \TU/texgyrepagella(0)/m/n/12 Run Effects of Youth Training Programs: Experiment
 al Evidence from
  []
 
-[143]
-Underfull \hbox (badness 1708) in paragraph at lines 1601--1601
+[180]
+Underfull \hbox (badness 1708) in paragraph at lines 3815--3815
 [][]\TU/texgyrepagella(0)/m/n/12 Ghisletta, Andrea, Johanna Kemper, and Jonatha
 n Stöterau (2021). \TU/texgyrepagella(0)/m/it/12 The Im-
  []
 
-[144]
-Underfull \hbox (badness 1515) in paragraph at lines 1601--1601
+[181]
+Underfull \hbox (badness 1515) in paragraph at lines 3815--3815
 \TU/texgyrepagella(0)/m/it/12 Evidence Informed Practice for Unemployed and Dis
 advantaged Youth\TU/texgyrepagella(0)/m/n/12 . Cham:
  []
 
-[145] [146] [147]
+[182] [183] [184] [185] [186] [187]
+File: figures/fig-firmsize-1.pdf Graphic file (type pdf)
+<use figures/fig-firmsize-1.pdf>
+[188] [189] [190] [191]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 10.67926pt on input line 1641.
-[148] [149
+(Font)              scaled to size 10.67926pt on input line 4080.
+File: figures/fig-costspie-1.pdf Graphic file (type pdf)
+<use figures/fig-costspie-1.pdf>
+[192]
+File: figures/fig-costspie2-1.pdf Graphic file (type pdf)
+<use figures/fig-costspie2-1.pdf>
+File: figures/fig-apphist-1.pdf Graphic file (type pdf)
+<use figures/fig-apphist-1.pdf>
+[193]
+Overfull \vbox (24.5241pt too high) has occurred while \output is active []
 
+[194]
+File: figures/fig-firmhist-1.pdf Graphic file (type pdf)
+<use figures/fig-firmhist-1.pdf>
 
+Overfull \vbox (24.53235pt too high) has occurred while \output is active []
 
+[195] [196] [197] [198
 
-] [150]
+] [199
+
+] [200
+
+] [201
+
+] [202] [203]
 File: figures/questionnaire/metalworking.pdf Graphic file (type pdf)
 <use figures/questionnaire/metalworking.pdf>
-[151]
+[204]
 Overfull \vbox (24.52449pt too high) has occurred while \output is active []
 
-[152]
+[205]
 File: figures/questionnaire/plumbing.pdf Graphic file (type pdf)
 <use figures/questionnaire/plumbing.pdf>
 File: figures/questionnaire/carpentry.pdf Graphic file (type pdf)
 <use figures/questionnaire/carpentry.pdf>
-[153]
+[206]
 File: figures/questionnaire/masonry.pdf Graphic file (type pdf)
 <use figures/questionnaire/masonry.pdf>
-[154]
+[207]
 Overfull \vbox (24.5115pt too high) has occurred while \output is active []
 
-[155]
+[208]
 File: figures/questionnaire/electricians.pdf Graphic file (type pdf)
 <use figures/questionnaire/electricians.pdf>
 
 Overfull \vbox (2.29791pt too high) has occurred while \output is active []
 
-[156]
+[209] [210
+
+]
 Chapter 5.
-Package biblatex Info: Reference segment=10 on input line 1792.
-Package biblatex Info: Setting label 'refsegment:010' on input line 1792.
-[157
+Package biblatex Info: Reference segment=10 on input line 4531.
+Package biblatex Info: Setting label 'refsegment:010' on input line 4531.
+[211] [212
 
-] [158
-
-] [159]
-Underfull \hbox (badness 1057) in paragraph at lines 1801--1801
+] [213]
+Underfull \hbox (badness 1057) in paragraph at lines 4540--4540
 [][]\TU/texgyrepagella(0)/m/n/12 Allais, Stephanie (July 3, 2022). “Skills for 
 Industrialisation in Sub-Saharan
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1801--1801
+Underfull \hbox (badness 1132) in paragraph at lines 4540--4540
 \TU/texgyrepagella(0)/m/n/12 African Countries: Why Is Systemic Reform of Techn
 ical and Vocational
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 1801--1801
+Underfull \hbox (badness 3838) in paragraph at lines 4540--4540
 \TU/texgyrepagella(0)/m/n/12 Run Effects of Youth Training Programs: Experiment
 al Evidence from
  []
 
-[160] [161] [162] [163]
-Underfull \hbox (badness 1708) in paragraph at lines 1801--1801
+[214] [215] [216] [217]
+Underfull \hbox (badness 1708) in paragraph at lines 4540--4540
 [][]\TU/texgyrepagella(0)/m/n/12 Ghisletta, Andrea, Johanna Kemper, and Jonatha
 n Stöterau (2021). \TU/texgyrepagella(0)/m/it/12 The Im-
  []
 
-[164] [165]
-Underfull \hbox (badness 1515) in paragraph at lines 1801--1801
+[218] [219]
+Underfull \hbox (badness 1515) in paragraph at lines 4540--4540
 \TU/texgyrepagella(0)/m/it/12 Evidence Informed Practice for Unemployed and Dis
 advantaged Youth\TU/texgyrepagella(0)/m/n/12 . Cham:
  []
 
-[166] [167] [168] [169]
-Underfull \hbox (badness 1231) in paragraph at lines 1801--1801
+[220] [221] [222] [223]
+Underfull \hbox (badness 1231) in paragraph at lines 4540--4540
 \TU/texgyrepagella(0)/m/n/12 United Nations Development Programme (UNDP) 2019. 
 New York, NY:
  []
 
-[170] [171] (./diss.aux)
+[224] [225] (./diss.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'diss.run.xml'.
 \openout1 = `diss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32144 strings out of 476179
- 632187 string characters out of 5809544
- 1551065 words of memory out of 5000000
- 52333 multiletter control sequences out of 15000+600000
- 478899 words of font info for 139 fonts, out of 8000000 for 9000
+ 33897 strings out of 476179
+ 666591 string characters out of 5809544
+ 1600895 words of memory out of 5000000
+ 53960 multiletter control sequences out of 15000+600000
+ 480334 words of font info for 192 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,16n,123p,2056b,5643s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,21n,123p,3232b,5643s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on diss.pdf (182 pages).
+Output written on diss.pdf (237 pages).
