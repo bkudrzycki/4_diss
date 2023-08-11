@@ -15,10 +15,9 @@ $endif$
 $for(classoption)$
   $classoption$$sep$,
 $endfor$
-]{report}
+]{book}
 
 % Options added by Bart
-
 \makeatletter
 \def\@pnum@font{\bfseries}% Default is \bfseries
 \renewcommand*\l@chapter[2]{% Taken from book.cls
@@ -56,7 +55,7 @@ $endif$
 \renewcommand{\l@figure}{\@dottedtocline{1}{1.5em}{3em}}
 \makeatother
 
-\setlength{\headheight}{13.59999pt}
+\setlength{\headheight}{14.97003pt}
 
 
 
@@ -157,7 +156,7 @@ $endif$
   colorlinks=true,
   linkcolor=black,
   filecolor=$if(filecolor)$$filecolor$$else$Maroon$endif$,
-  citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
+  citecolor=$if(citecolor)$$citecolor$$else$black$endif$,
   urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -254,15 +253,15 @@ $if(dir)$
 \fi
 $endif$
 $if(natbib)$
-\usepackage[$natbiboptions$]{natbib}
+\usepackage[sectionbib]{natbib}
+\usepackage{chapterbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
 $endif$
-$if(biblatex)$
-\usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
-$for(bibliography)$
-\addbibresource{$bibliography$}
-$endfor$
-$endif$
+
+\usepackage[style=authoryear,refsegment=chapter,doi=false,isbn=false,url=false]{biblatex}
+\addbibresource{bibliography.bib}
+
+
 $if(csl-refs)$
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
@@ -368,6 +367,7 @@ $endif$
 
 \def\thepage{\textit{\roman{page}}}
 
+
 \begin{document}
 $if(has-frontmatter)$
 \frontmatter
@@ -418,34 +418,21 @@ $if(jel)$
 
 $for(include-before)$
 $include-before$
-
 $endfor$
+
 $if(has-frontmatter)$
 \mainmatter
 $endif$
+
 $body$
 
+\newpage
 
-$if(has-frontmatter)$
-\backmatter
-$endif$
-$if(natbib)$
-$if(bibliography)$
-$if(biblio-title)$
-$if(has-chapters)$
-\renewcommand\bibname{$biblio-title$}
-$else$
-\renewcommand\refname{$biblio-title$}
-$endif$
-$endif$
-  \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
-
-$endif$
-$endif$
 $if(biblatex)$
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-
+\printbibliography[heading=bibintoc]
+\markboth{Bibliography}{Bibliography}
 $endif$
+
 $for(include-after)$
 $include-after$
 

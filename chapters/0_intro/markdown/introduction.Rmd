@@ -1,0 +1,246 @@
+---
+title: Introduction
+author: 
+  - name: Bart Kudrzycki
+    affiliation: Development Economics Group, ETH Zurich, Switzerland, <bartlomiej.kudrzycki@nadel.ethz.ch>
+date: \today
+thanks: |
+  Thanks to Dario for the Markdown template.
+keywords: [Informal labor markets, Dual training, Apprenticeship]
+jel: [I26]
+classoption: a4paper, 12pt
+geometry: left=3cm, right=3cm
+bibliography: intro.bib
+csl: 'apa-no-ampersand.csl'
+output: 
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    citation_package: biblatex
+    style: authoryear
+    template: template.tex
+    extra_dependencies: ["flafter", "placeins", "changepage", "multirow", "array", "adjustbox", "longtable", "pifont", "fancyhdr", "pdflscape", "fancyhdr"]
+    fig_caption: yes
+---
+
+```{r intro_setup, include=FALSE}
+packages <- c("tidyverse", "ggplot2")
+
+options(repos = c(CRAN = "http://cran.rstudio.com"))
+
+# install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages], silent = TRUE)
+}
+
+# load packages
+invisible(lapply(packages, library, character.only = TRUE))
+
+rm(installed_packages)
+
+# load data
+df <- read.csv("/Users/Shared/Bart/Youth Employment/4_diss/chapters/0_intro/data/EIP_2EET_SEX_RT_A-filtered-2023-06-24.csv")
+
+# load code chunks
+knitr::read_chunk('../code/intro_chunks.R')
+
+knitr::opts_chunk$set(message=FALSE,
+                      warning=FALSE,
+                      echo = FALSE,
+                      cache = TRUE,
+                      fig.path= 'figures/',
+                      fig.pos = 'H',
+                      out.extra = "",
+                      floatfoot.envs = c("figure", "table", "longtabu"))
+
+```
+
+Context
+Questions
+Literature Review
+Contribution
+Conclusion & Policy
+
+
+# Research Context and Motivation
+
+
+
+Gainful employment is a social right. At a minimum, employees should be guaranteed safety and a living wage. Moreover, it is the right to provide for a family, to support older and younger generations, and create personal opportunity (development as freedom, Sen). Moreover, a productive workforce with high participation is the backbone of economic growth, creating the capital stock and investment capacity necessary for business growth, technological innovation, and increasingly complex supply chains and higher quality services (CITE). An important component of a strong labor market is a timely and smooth transition from education to work. Yet, in countries that need it most (LICs), youth struggle to find quality employment, and the transition is long and winding, and despite increasing educational levels, lead through and to informal employment. This thesis focuses youth employment and training in the informal economy.
+
+Unfortunately, employment in SSA is generally informal, especially among youth. Over 360 million youth are engaged in informal employment across the globe, according to 2018 ILO estimates. While participation in formal education has increased, formal TVET is miniscule. Given the lack of formal sector jobs, there is a need to better increase our understanding of both informal education and training paths and the transition to the informal labor market.
+
+Participation in the informal sector is generally concave (or inverted U-shaped): youth enter the labor market through the informal sector, transition to formal work at increasing rates, reaching a maximum rate of about 25 percent formality between the ages of 35 and 44, and then transition back to the informal sector [@chacaltana2019].
+
+"41% of working youth remain food insecure,indicating their income is insufficient to meet even basic needs" [@africandevelopmentbank2016a].
+
+Demographics also play an important role. The youth bulge
+
+"In 2020, 77% of Africa’s population was below the age of 35, according to the World Economic Forum. The African Development Bank forecasts that there will be 850 million youth by 2050, and by 2063, young people will constitute half of the 2 billion working-age population. This asset class can deliver demographic dividends if the right policies are put in place to promote adequate investments in the youth."
+
+The World Bank points to the need for improved metrics of educational system performance to both guide system-wide change and on-board the myriad stakeholders involved [@arias2019].
+
+Another promise of dual education is fulfilling the most promising of educational goals: that of promoting the literacy, numericy, and even socioemotional skills among its youth population [@arias2019].
+
+"Africa’s private sector has largely remained small, informal, and unindustrialized, creating an estimated 3 million formal jobs for more than 12 million young people entering the workforce each year since 2015, according to the Bank’s estimates. According to the International Labor Organization, one in five African youth were not in employment, education or training in 2021. In Sub-Saharan Africa, 83% of the youth that enter the job market every year remain jobless (Mo Ibrahim Foundation). And the devastating impact of Covid-19 pushed an additional 30 million people into extreme poverty and made many others more vulnerable."
+
+"Issues such as inadequate coordination, poor evaluation, and politicization hinder the programs' ability to address the mounting youth unemployment and underemployment crisis in Africa. Furthermore, many young individuals remain unaware of the YEPs' available and its benefits.
+- Inadequate coordination: Many YEPs are implemented by various organizations, including governments, NGOs, and private sector companies. However, the lack of coordination and collaboration among these stakeholders can result in overlapping efforts, resource misallocation, and inefficiencies. 
+- Poor evaluation: Evaluating the effectiveness of YEPs is important for identifying successful strategies and refining the programs. However, many YEPs lack sufficient monitoring and evaluation mechanisms, making it difficult to assess their real impact on youth employment. 
+- Politicization: In some cases, YEPs can become politicized, with their implementation and funding tied to political agendas or interests. This can lead to an emphasis on short-term gains and visibility rather than long-term, sustainable solutions for youth employment."
+
+Despite strong growth averaging 3 to 4 percent in the two decades preceding the pandemic (CITE), many Africans remain unsatisfied with their progress. Real GDP was projected to grow just 3.7 percent in 2023 and 3.9% in 2024, considerably below the average of 6 percent per annum in the three years preceding the pandemic [@africandevelopmentbank2023].
+
+Sub-Saharan Africa (SSA) is projected to have the fastest population growth in the world through 2100, accounting for more than half of the global population increase by 2050 [@un2022]. The resulting "youth bulge" means that youth employment in Sub-Saharan Africa (SSA) is a pressing concern for governments, civil society, and development partners alike [@ilo2022a]. Failure to address joblessness among youth could have have serious consequences for the economy and society.
+
+The current generation of Africans is the most educated yet (Filmer, CITE), yet many find that the promise of stable and gainful employment does not follow. Moreover, despite increasing educational attainment, the quality of education remains critically low in many countries in SSA (WORLD DEV REPORT CITE), and does not translate in to measurable improvements in marketable skill levels [@filmer2020]. Many follow their parents into informal work, and find that despite their scholastic efforts, their employment prospects are similar to those of their parents, or worse (reword, Filmer, CITE?). Women, in particular, are disadvantaged in many respects as they struggle to navigate the job search that would lead to a position commensurate with their educational attainment, which has in many countries outstripped that of their male counterparts (CITE), and the still-rigid social reality of gendered professions and domestic expectations.
+
+Providing quality education to all children and youth in low- and lower-middle-income countries with growing populations is also a significant challenge. In sub-Saharan Africa, the completion rate of upper secondary education increased by only 3.4 percentage points during the past decade, from 23.3 percent to 26.7 percent, leaving the region furthest behind in an international comparison [@un2022].
+
+_The Youth Bulge_
+- supplier of work force, via manufacturing on-site or emigration (together with South Asia)
+- competitive wages as wages rise elsewhere
+- concentration of workers in urban areas -> innovation (?)
+- savings will increase if fertility declines
+- At 11 percent, manufactoring as a percent of GDP is lower today than it was in the 1980s and 1990s (World Bank national accounts data, and OECD National Accounts data files.)
+- The unemployment rate in Sub-Saharan Africa was only about 5.5 percent in LICs and 6.5 percent in LMICs in 2022 (World Bank)
+
+The youth bulge in Sub-Saharan Africa presents many opportunities for the region's development. Firstly, the large population of young individuals can contribute to a demographic dividend if effectively leveraged. With a substantial working-age population, Sub-Saharan Africa has the opportunity to harness the energy, innovation, and productivity of its youth to drive economic growth. By investing in education, vocational training, and skills development, the region can equip its young population with the knowledge and capabilities needed to contribute to various sectors, such as technology, entrepreneurship, and creative industries, leading to job creation, economic diversification, and increased productivity.
+
+Secondly, the youth bulge offers a unique chance for social and political change in Sub-Saharan Africa. Young people often bring fresh perspectives, ideas, and demands for transformative actions. They can be catalysts for promoting human rights, advocating for good governance, and driving societal progress. The youth bulge can inspire increased civic participation, youth-led initiatives, and grassroots movements that foster inclusive and participatory societies. Empowering young individuals with the necessary skills, knowledge, and platforms to engage in decision-making processes can lead to more responsive governance, improved social policies, and the promotion of sustainable development practices. Furthermore, the youth bulge can facilitate regional integration, cultural exchange, and cooperation, fostering a sense of shared identity and collaboration among countries in the region.
+
+Young people were also disproportionately affected by the Covid-19 pandemic, making it even harder for them to secure employment. In 2019 and 2020, youth (15 to 24 years of age) suffered a much steeper loss in employment (in percentage terms) than adult workers (25 years of age or older), according to the @ilo2022a. The closure of businesses and the imposition of lockdowns and confinement measures made it extremely difficult for young people to find a steady employer. Many young people dropped out of the labor force altogether, or failed to enter it in the first place. Access to education was also curtailed by the pandemic. Falling family incomes, transition to distance learning, and even the temporary shutdown of educational facilities meant that the rate of youth not in employment, education, or training (NEET) peaked in 2020 (see Figure \@ref(fig:fig-neet) below).
+
+Together with the threat of a global economic slowdown, future employment prospects and job quality in SSA remain fragile -- especially for youth. Although the economy has largely recovered since the pandemic, high inflation and economic headwinds have placed downward pressure on demand in HICs, which have impacted economic conditions in SSA through global supply chain linkages [@ilo2023]. The pandemic was a major setback in growth and poverty reduction in the region, after two decades of major progress on both fronts. Even before the pandemic, employment growth was significantly lagging GDP growth. Between 2000 and 2014, a 1 percent increase in GDP was associated with just a 0.41 percent increase in employment [@africandevelopmentbank2019]. This compares to about 0.7 percent in other regions (CITE). Projections indicate that extreme poverty (US$2.15, 2017 PPP) will be increasingly concentrated in SSA [@worldbank2022]. 
+
+Around 2 billion workers were engaged in informal employment in 2022. 
+
+The ILO estimates that the rate of informal employment among youth is 77 percent worldwide, significantly higher than the 61 percent of adult workers [@bonnet2018]. The same study reports that workers in emerging and developing countries constitute 93 per cent of the world's informal employment [@bonnet2018]. In SSA, 95.8 percent of workers aged 15-24 are employed in the informal sector, compared to 86.6 percent of adults - in other words, adults are more than three time more likely to be employed formally [@kiaga2020].
+
+In 2014, a World Bank report projected a 55 percent increase in the share of wage jobs in total employment over the next ten years [@filmer2014]. Even then, the issue was that this growth started at a very small base share of employees, leaving the majority of workers in the informal sector. Although the rate of informal work ddropped by about 5 percent between 2004 and 2019 [ilo2023], the recovery from the Covid-19 pandemic has been characterized by a return to informal, rather than formal, work. The increasing number of youth joining the labor force, combined with the stalling growth in formal wage jobs, suggests that barring an economic miracle, the vast majority of incoming workers over the next generation or more will spend most of their time in the informal sector.
+
+Informal job lack the access to social protection systems, affecting over 4 billion workers worldwide [ilo2023].
+
+While the growth rate of industrial sector, formal sector wage jobs is expected to grow by 55 percent 
+
+Though the challenge is immense, the youth bulge simultaneously carries immense potential for growth, not least in the form of a young, energetic, and motivated workforce in an increasingly interconnected, yet aging, global marketplace [@filmer2014].
+
+
+```{r fig-neet, fig.cap="Share of youth not in education, employment or training (NEET):\\newline{} Sub-Saharan Africa", echo=FALSE, fig.height=4}
+```
+
+This thesis is embedded in LELAM-TVET4INCOME. The first two papers deal with a guiding question posed by the project:
+
+1. How can we measure the youth labor market situation in low and middle income countries?
+
+The second deals with a second question:
+
+2. Does improving the linkage between the actors of the education and employment system reduce unemployment, improve gainful employment, job quality, and thus income of the youth?
+
+_Transitions_
+
+Our second contribution is methodological. To our knowledge, we attempt the first use of sequence analysis to study transitions in LICs and LMICs. The literature on xxx is still in its infancy.
+
+The School-to-Work Transition in Developing Countries
+The school-to-work transition (SWT) in LICs is quicker in Asia, slower in MENA, and heterogenous but comparable to industrialized countries on average in LAC and SSA. In SSA, two counteracting factors likely influencing transition speed: poverty and lack of unemployment insurance forces youth into working sooner, while increasing education and decreasing number of public sector jobs has driven up expectations without matching wage job growth.
+From a methodological standpoint, three approaches might suit our data in the literature: 1) look at flows (transition matrices), look for heterogenous effects and spells in each state (cunning- ham), 2) survival analysis to estimate transition duration and probability of labor market exit, plus subgroup analysis, and 3) regression of outcomes on earlier labor market experience, e.g. first job experience. I go into more detail below, with the help of a nice summary of the SWT literature for developing countries by Nilsson (2019).
+
+What do we know about school-to-work transitions in low-income countries?
+Theory:
+The Diamond-Mortensen-Pissarides search and matching framework (Mortensen & Pissarides, 1999) with extension to dual labor markets is common, with the common implication that more productive workers have higher opportunity costs of working in the informal sector and will thus wait longer to find a formal sector job. If education and productivity are correlated, this rationalizes the queuing hypothesis (Nilsson, 2019).
+
+Empirical estimations of transition age, duration, etc:
+Both cross-sectional and longitudinal data have been used to quantify the SWT. Cross-sectional data can be used to estimate the transition duration by subtracting the age at which 50 percent of the population has left school from the age at which 50 percent of the population has found work. Quintini et al. (2007) and Quintini and Martin (2014) use this approach to report transition durations, along with mean school-leaving and first employment ages (see Table 1). For longitudinal studies, the mean transition duration, reported for example in Quintini et al. (2007), the non- inclusion of youth still in transition will bias results.  Survival analysis is often used to account for this right-censored nature of the data (Nordman and Pasquier-Doumer, 2015; Manacorda et al., 2017, and several other studies in developing countries, albeit of lower quality). Manacorda et al. (2017) does this with 23 SWTS countries and reports similar transition times to the first job as Quintini, but much longer waits until permanent employment (11 year average for five countries in SSA, including Benin).
+
+A third empirical approach to transition is to study transition matrices. Cunningham and Salvagno (2011) do this for panel labor force surveys from Argentina, Brazil, and Mexico and find a common pattern: a short time spent in the informal sector, followed by a move to a formal position for longer spells, and finally entry into self-employment at advanced age. Formal and poor workers less likely to return to school, and females have less turnover. Looking at different income groups, the authors find that the poor experience a higher rate of entry to work upon leaving school, the same duration in jobs, and equal entry rates to formal wage employment, but are more likely to transition between states.
+
+In addition to education, the importance of networks1, search costs, and search intensity have been emphasized in a mostly experimental literature. A matching process in Jordan in 2015 proved ineffective, transport and job application workshops were more efficient than job fairs in Ethiopia in 2016, and information about job opportunities reduced women’s fertility and marriage rates and increased labor market participation and schooling in India in 2012. While not directly related to transition speed, Bridges et al. (2017) use the Tanzania Household Urban Panel Survey to study how first experiences in the labor market effects future earnings, and find that school-leavers who immediately find a wage job, particularly in the formal sector, experience a future wage premium.
+
+The effect of education differs from study to study, though it seems that it may speed up transition in MENA and central Asian countries and lengthen it in SSA, especially at higher levels of attainment. The queuing hypothesis explains why this may be the case: an extended job search has more value for the highly productive, who tend to signal productivity with their education. It is important to note that the reduction of public sector employment and increase in access to education are reversing the labor market conditions of the past, in which the educated had a relatively easy path to public employment. Studies generally suggest that high reservation wages are not the cause of high unemployment, however. Education has also been shown to increase search intensity (in Ghana, Turkey, Egypt).
+
+Women generally experience longer transition durations and are more likely to exit the labor market before completing the transition. For instance, Manacorda et al. (2017) find that women need twice the time to find a first job. Marriage is often cited as an alternative to labor market participation or ”solution to” failed transition, but in certain countries (such as India) high educational and occupation status may be desirable for the marriage market.
+
+Using survival analysis of retrospective job histories from a custom survey conducted in Oudgadougou, Nordman and Pasquier-Doumer (2015) show network strength and resources, in particularly for family ties, increases labor market stability (staying in self-employment or unemployment state) as well as access to public sector wage employment, but not network size. There is some evidence that jobs found via social networks tend to be lower paid and of lower quality in developing coun- tries. There are also some returns to staying in the same occupation as the parents in West Africa (Pasquier-Doumer, 2013).
+
+Nilsson (2019) discusses institutional factors such as the minimum wage, UI and wage subsidies. Studies do not point in a single direction. On the supply side, demographics should suggest that the pressure on youth is easing as population growth slows; elasticity of youth employment to the share of youth in the population has been estimated to be around 0.5 for both European and developing countries (O’Higgins 2003). Local labor market conditions appear to be stronger drivers of duration than GDP, trade openness, or income distribution. Active labor market policies (ALMP)  are  a subject that deserves, and has received in several papers, a literature review all to itself but, overall, skills training and entrepreneurship promotion appear more successful than facilitation programs like job fairs or subsidies. Manacorda et al. (2017) find that a one standard deviation increase in the rate of population growth leads to an increase in average transition duration of ∼17 months. One standard deviation increase the poverty rate leads to a reduction in transition duration of ∼17 months and an increase in probability of never attaining employment of 14 percentage points.
+
+A comparison of 8 high-income and 8 emerging countries by Quintini (2014) shows that youth in emerging countries experience longer transitions and leave education earlier, while also having higher rates of inactivity. However, the emerging countries used are located in MENA and Central Asia (plus China) and thus qualitatively different from a low-income country like Benin. The OECD literature suggests that there is frequent job turnover among younger workers who engage in a search process of “shopping around” temporary jobs until they find a career path, whereas the informal sector may play a similar, transitory role in developing countries, rather than being a dead-end career path.
+
+The economics of training literature can be split into two major strands: an older, rate of return literature, and a newer, project-related literature.
+
+
+
+
+# Contribution and Structure of Dissertation
+
+What do we not know?
+
+What are the differences in search intensities and returns to search for men and women? Do they reflect less inputs to search or a lower pool of job offers?
+How does fertility affect labor market participation for new market entrants vs. women who are already working? A simple regression confounds the two.
+How do parental characteristics (networks/ties/jobs) influence transition and outcomes?
+
+Why is Benin an outlier for SSA in the Manacorda et al. (2017) study (much shorter transi- tions, much higher probability of not finding a job)?
+
+
+- 
+- history of wb/ilo skills programs
+  - youth survey
+    - advances in remote surveys
+    - optimal matching analysis for labor market analysis in high-income countries
+  - 
+- cost-benefit analyses
+
+
+
+
+1.1 Context
+
+1.1.1 Skills development policy in Sub-Saharan Africa: a brief history
+
+During the 1960s and early 1970s, technical and vocational education and training (TVET) was a high priority for many bilateral and multilateral agencies. The World Bank funded many projects to promote TVET, and the ILO published a number of influential reports on the importance of training for the informal sector.
+
+However, in the mid-1980s, there was a shift in policy away from TVET. The World Bank began to argue that primary education was more important for economic development, and many countries cut back on their spending on TVET.
+
+In recent years, there has been a renewed interest in TVET. The MDGs include a target on ensuring that all young people and adults have access to appropriate learning and life skills programmes, and a number of international agencies have called for more investment in TVET.
+
+1.1.2 Education for all, formal jobs for some and informal micro-enterprise for most in Sub-Saharan Africa
+
+In Sub-Saharan Africa, the vast majority of new jobs are being created in the informal sector. This sector is often seen as being characterized by low productivity and poverty, but there is growing evidence that it can play an important role in economic development.
+
+The challenge for policy-makers is to create an environment in which the informal sector can thrive. This means providing access to finance, training, and markets. It also means addressing the regulatory barriers that often make it difficult for informal businesses to operate.
+
+1.1.3 Informal micro-enterprise (IME)
+
+An informal micro-enterprise (IME) is a small business that employs 1-9 workers. IMEs are a major source of employment in Sub-Saharan Africa, and they play an important role in the economy.
+
+IMEs are often characterized by low productivity and poverty. However, there is growing evidence that they can be successful businesses.
+
+The key to success for IMEs is access to finance, training, and markets. Policy-makers need to create an environment in which IMEs can thrive.
+
+1.2 Research questions
+
+The research questions for this study are:
+
+What are the factors that contribute to the success of informal micro-enterprises in Sub-Saharan Africa?
+What are the challenges facing informal micro-enterprises in Sub-Saharan Africa?
+What can be done to help informal micro-enterprises succeed?
+1.3 Methodology
+
+The research will use a mixed-methods approach. This will involve a literature review, interviews with IME owners, and a survey of IMEs.
+
+The literature review will provide an overview of the factors that contribute to the success of IMEs in Sub-Saharan Africa. The interviews will provide insights into the challenges facing IMEs and the perspectives of IME owners. The survey will provide quantitative data on the characteristics of IMEs and the factors that contribute to their success.
+
+1.4 Limitations
+
+The study will be limited by the availability of data. There is limited quantitative data on IMEs in Sub-Saharan Africa. The study will also be limited by the time and resources available.
+
+1.5 Significance
+
+The study will contribute to the understanding of the factors that contribute to the success of informal micro-enterprises in Sub-Saharan Africa. The findings of the study will be useful for policy-makers and development practitioners who are working to support IMEs.
+
+
+# Conclusions
+
+\newpage
+\markboth{References}{References}
+\printbibliography[segment=\therefsegment,heading=subbibintoc,title={References}]
