@@ -78,7 +78,7 @@ This paper uses a novel longitudinal dataset of 752 youth living in Cotonou, Ben
 _co-authored with Sylvain Kpenavoun, Esaïe Gandonou, Guy Nouatin & Rubain Bankole_
 
 \begin{chapabstract}
-Traditional apprenticeships are an important source of skills for early school leavers in developing countries. Usually private arrangements between parents and informal firms, apprenticeship quality and costs are not subject to oversight or regulation, and the various transactions taking place between apprentice and firm have not been carefully documented to date. This paper sheds light on the institution of traditional apprenticeship through a study of a national apprenticeship reform called the CQP, which combines in-firm training with a weekly classroom component. Using two waves of surveys with firm owners and apprentices, we analyze the human capital gains and material costs and benefits associated with training. We find that the program did not generate improvements in apprentice skill or in firm profitability, possibly due to a strong selection of older, overqualified candidates into the program. We do find that traditional apprenticeship on the whole improves apprentices' sector-specific knowledge and experience. Fees paid by apprentices are found to be commensurate with the allowances they receive from the trainers, contradicting earlier work which suggest that firms use fees for financing. Estimates suggest that apprentice productivity must be substantial for firms to break even on training. The high proportion of apprentices as a fraction of the total workforce in firms, combined with the tendency for apprentices to leave their training workshop after graduation, suggests that apprentice productive contributions to the training firms are indeed substantial.
+Traditional apprenticeships are an important source of skills for early school leavers in developing countries. This paper sheds light on the institution of traditional apprenticeship through a study of a national apprenticeship reform called the CQP, which combines in-firm training with a weekly classroom component. Using two waves of surveys with firm owners and apprentices, we analyze the human capital gains and material costs and benefits associated with training. We find that the program did not generate improvements in apprentice skill or in firm profitability, possibly due to a strong selection of older, overqualified candidates into the program. We do find that traditional apprenticeship on the whole improves apprentices' sector-specific knowledge and experience. Fees paid by apprentices are found to be commensurate with the allowances they receive from the trainers, contradicting earlier work which suggest that firms use fees for financing. Estimates suggest that apprentice productivity must be substantial for firms to break even on training. The high proportion of apprentices as a fraction of the total workforce in firms, combined with the tendency for apprentices to leave their training workshop after graduation, suggests that apprentice productive contributions to the training firms are indeed substantial.
 \end{chapabstract}
 
 \newpage
@@ -86,12 +86,13 @@ Traditional apprenticeships are an important source of skills for early school l
 ```{r, child='chapters/3_cqp/markdown/cqp.Rmd'}
 ```
 
-\newsection
+<!-- \newsection -->
 
-\chapter{Conclusion}
+<!-- \chapter{Conclusion} -->
 
-```{r, child='chapters/conclusion.Rmd'}
-```
+<!-- ```{r, child='chapters/conclusion.Rmd'} -->
+<!-- ``` -->
 
-\newpage
+<!-- \newpage -->
 
+<!-- Usually private arrangements between parents and informal firms, apprenticeship quality and costs are not subject to oversight or regulation, and the various transactions taking place between apprentice and firm have not been carefully documented to date.  -->

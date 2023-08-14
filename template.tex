@@ -394,17 +394,13 @@ $endif$
 \addcontentsline{toc}{chapter}{Acknowledgements} 
 
 \chapter*{Abstract}
+
 \input{chapters/bigabstract}
 \addcontentsline{toc}{chapter}{Abstract} 
-\vspace{0.5cm}
-$if(jel)$
 
-  \noindent \textbf{JEL codes}: $for(jel)$$jel$$sep$, $endfor$
-  $endif$
-  $if(keywords)$
+\chapter*{Zusammenfassung}
+\input{chapters/zusammenfassung}
 
-  \noindent \textbf{Keywords}: $for(keywords)$$keywords$$sep$, $endfor$
-  $endif$
 
 \tableofcontents
 \listoffigures

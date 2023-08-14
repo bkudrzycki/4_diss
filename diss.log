@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.15)  11 AUG 2023 15:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.15)  14 AUG 2023 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1631,11 +1631,41 @@ ut line 286.
 ]
 Package biblatex Info: Reference segment=2 on input line 286.
 Package biblatex Info: Setting label 'refsegment:02' on input line 286.
-(./chapters/bigabstract.tex) [5] [6
+(./chapters/bigabstract.tex [5]) [6]
+Package biblatex Info: Reference segment=3 on input line 291.
+Package biblatex Info: Setting label 'refsegment:03' on input line 291.
+(./chapters/zusammenfassung.tex
+Underfull \hbox (badness 1406) in paragraph at lines 5--6
+\TU/texgyrepagella(0)/m/n/12 niedrigem Einkommen (YLILI). Durch die Verwendung 
+eines umfassenden
+ []
 
-]
-Package biblatex Info: Reference segment=3 on input line 295.
-Package biblatex Info: Setting label 'refsegment:03' on input line 295.
+
+Underfull \hbox (badness 1259) in paragraph at lines 5--6
+\TU/texgyrepagella(0)/m/n/12 niedrigem und niedrigem bis mittlerem Einkommen ze
+igt erhebliche Unter-
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 5--6
+\TU/texgyrepagella(0)/m/n/12 die Bedeutung der Bildungsqualität als Schlüsselfa
+ktor für die Arbeitsmark-
+ []
+
+
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+[7
+
+])
+Underfull \hbox (badness 1881) in paragraph at lines 11--293
+[]\TU/texgyrepagella(0)/m/n/12 Die Ergebnisse deuten darauf hin, dass zur Bewäl
+tigung des Problems
+ []
+
+[8]
+Package biblatex Info: Reference segment=4 on input line 295.
+Package biblatex Info: Setting label 'refsegment:04' on input line 295.
 (./diss.toc
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
 (Font)              scaled to size 12.00128pt on input line 8.
@@ -1660,47 +1690,49 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [7]
-Overfull \hbox (0.40796pt too wide) detected at line 53
- []\TU/texgyrepagella(0)/m/n/12 202
- []
+) [9
 
-)
+])
 \tf@toc=\write4
 \openout4 = `diss.toc'.
 
-[8]
-Package biblatex Info: Reference segment=4 on input line 296.
-Package biblatex Info: Setting label 'refsegment:04' on input line 296.
-(./diss.lof [9
+[10]
+Package biblatex Info: Reference segment=5 on input line 296.
+Package biblatex Info: Setting label 'refsegment:05' on input line 296.
+(./diss.lof
+Overfull \hbox (0.44397pt too wide) detected at line 30
+ []\TU/texgyrepagella(0)/m/n/12 200
+ []
+
+[11
 
 ]
-Overfull \hbox (0.27597pt too wide) detected at line 35
+Overfull \hbox (0.68396pt too wide) detected at line 31
+ []\TU/texgyrepagella(0)/m/n/12 204
+ []
+
+
+Overfull \hbox (0.27597pt too wide) detected at line 33
  []\TU/texgyrepagella(0)/m/n/12 206
  []
 
 
-Overfull \hbox (0.47997pt too wide) detected at line 36
+Overfull \hbox (0.47997pt too wide) detected at line 34
  []\TU/texgyrepagella(0)/m/n/12 207
  []
 
 
-Overfull \hbox (0.25197pt too wide) detected at line 37
- []\TU/texgyrepagella(0)/m/n/12 208
- []
-
-
-Overfull \hbox (0.28796pt too wide) detected at line 38
- []\TU/texgyrepagella(0)/m/n/12 209
+Overfull \hbox (0.40796pt too wide) detected at line 38
+ []\TU/texgyrepagella(0)/m/n/12 220
  []
 
 )
 \tf@lof=\write5
 \openout5 = `diss.lof'.
 
-[10]
-Package biblatex Info: Reference segment=5 on input line 298.
-Package biblatex Info: Setting label 'refsegment:05' on input line 298.
+[12]
+Package biblatex Info: Reference segment=6 on input line 298.
+Package biblatex Info: Setting label 'refsegment:06' on input line 298.
 (./diss.lot
 
 Package fontspec Info: Font family 'Palatino(0)' created for font 'Palatino'
@@ -1725,77 +1757,121 @@ Package fontspec Info: Font family 'Palatino(0)' created for font 'Palatino'
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-Palatino.cfg
 File: mt-Palatino.cfg 2012/03/10 v1.0 microtype config. file: Palatino and simi
 lar fonts (LBD)
-) [11
+) [13
 
 ]
-Overfull \hbox (0.44397pt too wide) detected at line 66
+Overfull \hbox (0.44397pt too wide) detected at line 57
  []\TU/texgyrepagella(0)/m/n/12 200
  []
 
 
-Overfull \hbox (0.40796pt too wide) detected at line 68
+Overfull \hbox (0.40796pt too wide) detected at line 59
  []\TU/texgyrepagella(0)/m/n/12 202
+ []
+
+
+Overfull \hbox (0.31197pt too wide) detected at line 60
+ []\TU/texgyrepagella(0)/m/n/12 203
+ []
+
+
+Overfull \hbox (0.31197pt too wide) detected at line 61
+ []\TU/texgyrepagella(0)/m/n/12 203
+ []
+
+
+Overfull \hbox (0.68396pt too wide) detected at line 62
+ []\TU/texgyrepagella(0)/m/n/12 204
+ []
+
+
+Overfull \hbox (0.25197pt too wide) detected at line 63
+ []\TU/texgyrepagella(0)/m/n/12 208
+ []
+
+
+Overfull \hbox (0.28796pt too wide) detected at line 64
+ []\TU/texgyrepagella(0)/m/n/12 209
  []
 
 )
 \tf@lot=\write6
 \openout6 = `diss.lot'.
 
-[12]
+[14]
 Chapter 1.
-Package biblatex Info: Reference segment=6 on input line 310.
-Package biblatex Info: Setting label 'refsegment:06' on input line 310.
+Package biblatex Info: Reference segment=7 on input line 310.
+Package biblatex Info: Setting label 'refsegment:07' on input line 310.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 315.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 315.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 315.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 315.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 315.
+LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 315.
 [1
 
 ]
-Underfull \hbox (badness 1348) in paragraph at lines 325--326
-[]\TU/texgyrepagella(0)/m/n/12 Participation in the informal sector is generall
-y concave (or inverted U-
- []
-
-[2] [3] [4] [5]
 File: figures/fig-neet-1.pdf Graphic file (type pdf)
 <use figures/fig-neet-1.pdf>
-[6] [7]
-Underfull \hbox (badness 1430) in paragraph at lines 418--419
-[]\TU/texgyrepagella(0)/m/n/12 A third empirical approach to transition is to s
-tudy transition matrices.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
+
  []
 
-[8] [9] [10]
-Underfull \hbox (badness 1874) in paragraph at lines 461--462
-[]\TU/texgyrepagella(0)/m/n/12 optimal matching analysis for labor market analy
-sis in high-
+[3] [4] [5]
+File: figures/fig-inf-1.pdf Graphic file (type pdf)
+<use figures/fig-inf-1.pdf>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
+
  []
 
-[11]
-Underfull \hbox (badness 2409) in paragraph at lines 497--501
-[]\TU/texgyrepagella(0)/m/n/12 What are the factors that contribute to the succ
-ess of informal micro-
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+Underfull \hbox (badness 2799) in paragraph at lines 465--465
+[][]\TU/texgyrepagella(0)/m/n/12 Furnas, Hannah E. (Sept. 2016). “Capturing Com
+plexities of Relationship-
  []
 
-[12] [13] [14]
+[21]
+Underfull \hbox (badness 1708) in paragraph at lines 465--465
+[][]\TU/texgyrepagella(0)/m/n/12 Ghisletta, Andrea, Johanna Kemper, and Jonatha
+n Stöterau (2021). \TU/texgyrepagella(0)/m/it/12 The Im-
+ []
+
+[22] [23]
+Underfull \hbox (badness 1137) in paragraph at lines 465--465
+[][]\TU/texgyrepagella(0)/m/n/12 Petreski, Marjan, Nikica Mojsoska-Blazevski, a
+nd Marcelo Bergolo (Dec. 29,
+ []
+
+[24] [25] [26
+
+]
 Chapter 2.
-Package biblatex Info: Reference segment=7 on input line 523.
-Package biblatex Info: Setting label 'refsegment:07' on input line 523.
+Package biblatex Info: Reference segment=8 on input line 469.
+Package biblatex Info: Setting label 'refsegment:08' on input line 469.
 
-Underfull \hbox (badness 1910) in paragraph at lines 528--529
+Underfull \hbox (badness 1910) in paragraph at lines 474--475
 \TU/texgyrepagella(0)/m/n/12 This paper introduces the Youth Labor Index for Lo
 wer-Income Countries
  []
 
-[15
-
-] [16]
-Underfull \hbox (badness 2401) in paragraph at lines 544--545
+[27] [28]
+Underfull \hbox (badness 2401) in paragraph at lines 490--491
 []\TU/texgyrepagella(0)/m/n/12 The YLILI suggests that, among low-income and lo
 wer-middle income
  []
 
-[17] [18]
+[29] [30]
 File: figures/fig-infunemp-1.pdf Graphic file (type pdf)
 <use figures/fig-infunemp-1.pdf>
-[19] [20] (./tables/indicators.tex
+[31] [32] (./tables/indicators.tex
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.95116pt on input line 35.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
@@ -1833,47 +1909,28 @@ Overfull \hbox (2.47813pt too wide) in paragraph at lines 35--35
 [][] 
  []
 
-) [21] [22]
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 584.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 584.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 584.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 584.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 584.
-LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 584.
-[23] [24]
-Underfull \hbox (badness 1337) in paragraph at lines 607--608
-\TU/texgyrepagella(0)/m/n/12 According to the most recent estimates from the IL
-O, about 12 percent of
- []
-
-[25] [26] [27] [28] [29] [30] [31] (./tables/lastyear.tex) [32] (./tables/ranki
-ng.tex [33]) [34] [35] [36] [37]
+) [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] (./tables/lastyear.tex [43]
+) [44] (./tables/ranking.tex [45]) [46] [47] [48] [49]
 File: figures/relative_population.png Graphic file (type bmp)
 <figures/relative_population.png>
 File: figures/total_population.png Graphic file (type bmp)
 <figures/total_population.png>
-[38] [39] [40] [41] [42] [43]
+[50] [51] [52] [53] [54] [55]
 File: figures/fig-gendercorr-1.pdf Graphic file (type pdf)
 <use figures/fig-gendercorr-1.pdf>
-[44]
-Underfull \hbox (badness 1122) in paragraph at lines 825--826
+[56]
+Underfull \hbox (badness 1122) in paragraph at lines 771--772
 \TU/texgyrepagella(0)/m/n/12 imbalance in the education dimension—1.86 points h
 igher for males—there
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 825--826
+Underfull \hbox (badness 1394) in paragraph at lines 771--772
 \TU/texgyrepagella(0)/m/n/12 is significant underlying variation between countr
 ies and within individual
  []
 
-[45] (./tables/altspecs.tex
+[57] (./tables/altspecs.tex
 Overfull \hbox (13.62483pt too wide) in paragraph at lines 8--21
 [][] 
  []
@@ -1883,21 +1940,21 @@ Overfull \hbox (9.46863pt too wide) detected at line 25
  [] 
  []
 
-) [46] [47] [48] [49] [50] [51] [52] [53]
-Underfull \hbox (badness 1231) in paragraph at lines 861--861
+) [58] [59] [60] [61] [62] [63] [64] [65]
+Underfull \hbox (badness 1231) in paragraph at lines 807--807
 \TU/texgyrepagella(0)/m/n/12 United Nations Development Programme (UNDP) 2019. 
 New York, NY:
  []
 
-[54] [55] [56]
+[66] [67] [68]
 File: figures/fig-indexgdp-1.pdf Graphic file (type pdf)
 <use figures/fig-indexgdp-1.pdf>
 File: figures/fig-indexunemp-1.pdf Graphic file (type pdf)
 <use figures/fig-indexunemp-1.pdf>
-[57]
+[69]
 File: figures/fig-cormat-1.pdf Graphic file (type pdf)
 <use figures/fig-cormat-1.pdf>
-[58] [59]
+[70] [71]
 File: figures/stacked_highincome.png Graphic file (type bmp)
 <figures/stacked_highincome.png>
 File: figures/stacked_lowermiddle.png Graphic file (type bmp)
@@ -1910,7 +1967,7 @@ File: figures/pp_ssa.png Graphic file (type bmp)
 <figures/pp_ssa.png>
 File: figures/pp_world.png Graphic file (type bmp)
 <figures/pp_world.png>
-[60] (./tables/kofcomparison.tex
+[72] (./tables/kofcomparison.tex
 Overfull \hbox (7.79637pt too wide) in paragraph at lines 38--38
 [][] 
  []
@@ -1949,18 +2006,18 @@ Overfull \hbox (1.32838pt too wide) in paragraph at lines 38--38
 [][] 
  []
 
-) [61] (./tables/number.tex) [62] (./tables/coverage.tex) [63] (./tables/availa
-bility.tex [64] [65])
+) [73] (./tables/number.tex) [74] (./tables/coverage.tex) [75] (./tables/availa
+bility.tex [76] [77])
 File: figures/maps/NEET_total.png Graphic file (type bmp)
 <figures/maps/NEET_total.png>
 File: figures/maps/wcratio_total.png Graphic file (type bmp)
 <figures/maps/wcratio_total.png>
 File: figures/maps/skillsmismatch_total.png Graphic file (type bmp)
 <figures/maps/skillsmismatch_total.png>
-[66]
+[78]
 Overfull \vbox (67.14398pt too high) has occurred while \output is active []
 
-[67]
+[79]
 File: figures/maps/workingpoverty_total.png Graphic file (type bmp)
 <figures/maps/workingpoverty_total.png>
 File: figures/maps/underemployment_total.png Graphic file (type bmp)
@@ -1972,7 +2029,7 @@ File: figures/maps/elementaryoccup_total.png Graphic file (type bmp)
 
 Overfull \vbox (29.6236pt too high) has occurred while \output is active []
 
-[68]
+[80]
 File: figures/maps/secondaryeduc_total.png Graphic file (type bmp)
 <figures/maps/secondaryeduc_total.png>
 File: figures/maps/illiteracy_total.png Graphic file (type bmp)
@@ -1982,7 +2039,7 @@ File: figures/maps/harmonizedtest_total.png Graphic file (type bmp)
 
 Overfull \vbox (28.75299pt too high) has occurred while \output is active []
 
-[69]
+[81]
 File: figures/maps/YLILI_total.png Graphic file (type bmp)
 <figures/maps/YLILI_total.png>
 File: figures/maps/transition_total.png Graphic file (type bmp)
@@ -1991,10 +2048,10 @@ File: figures/maps/working_conditions_total.png Graphic file (type bmp)
 <figures/maps/working_conditions_total.png>
 File: figures/maps/education_total.png Graphic file (type bmp)
 <figures/maps/education_total.png>
-[70]
+[82]
 Overfull \vbox (25.04176pt too high) has occurred while \output is active []
 
-[71]
+[83]
 File: figures/fig-spider-1.pdf Graphic file (type pdf)
 <use figures/fig-spider-1.pdf>
 File: figures/fig-spider-2.pdf Graphic file (type pdf)
@@ -2008,70 +2065,70 @@ File: figures/fig-spider-5.pdf Graphic file (type pdf)
 
 Overfull \vbox (57.29941pt too high) has occurred while \output is active []
 
-[72] (./tables/ranking_bygender.tex [73])
+[84] (./tables/ranking_bygender.tex [85])
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 1060.
+(Font)              scaled to size 9.00096pt on input line 1006.
 LaTeX Font Info:    Font shape `TU/texgyrepagella-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1060.
-[74] [75] (./tables/dimensions_bygender.tex
+(Font)              scaled to size 8.99904pt on input line 1006.
+[86] [87] (./tables/dimensions_bygender.tex
 Overfull \hbox (39.35689pt too wide) in alignment at lines 4--80
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[76])
+[88])
 File: figures/maps/diff_YLILI.png Graphic file (type bmp)
 <figures/maps/diff_YLILI.png>
-[77]
+[89]
 File: figures/maps/diff_transition.png Graphic file (type bmp)
 <figures/maps/diff_transition.png>
 File: figures/maps/diff_working_conditions.png Graphic file (type bmp)
 <figures/maps/diff_working_conditions.png>
 File: figures/maps/diff_education.png Graphic file (type bmp)
 <figures/maps/diff_education.png>
-[78]
+[90]
 Overfull \vbox (59.70967pt too high) has occurred while \output is active []
 
-[79]
+[91]
 File: figures/fig-arithgeom-1.pdf Graphic file (type pdf)
 <use figures/fig-arithgeom-1.pdf>
 File: figures/fig-imputedraw-1.pdf Graphic file (type pdf)
 <use figures/fig-imputedraw-1.pdf>
-[80] (./tables/altscores.tex [81
+[92] (./tables/altscores.tex [93
 
-]) [82]
+]) [94]
 Chapter 3.
-Package biblatex Info: Reference segment=8 on input line 1159.
-Package biblatex Info: Setting label 'refsegment:08' on input line 1159.
-[83
+Package biblatex Info: Reference segment=9 on input line 1105.
+Package biblatex Info: Setting label 'refsegment:09' on input line 1105.
+[95
 
 
-] [84] [85] [86] [87] [88] [89]
-Overfull \hbox (1.2045pt too wide) in paragraph at lines 1268--1268
+] [96] [97] [98] [99] [100] [101]
+Overfull \hbox (1.2045pt too wide) in paragraph at lines 1214--1214
  []|\TU/texgyrepagella(2)/b/n/10.95 Apprentice  
  []
 
 
-Overfull \hbox (214.64992pt too wide) in paragraph at lines 1223--1274
+Overfull \hbox (214.64992pt too wide) in paragraph at lines 1169--1220
  [] 
  []
 
-[90] [91] [92]
+[102] [103] [104]
 File: figures/timeline.png Graphic file (type bmp)
 <figures/timeline.png>
-[93] [94] [95] [96]
-Overfull \hbox (0.696pt too wide) in paragraph at lines 1341--1341
+[105] [106] [107] [108]
+Overfull \hbox (0.696pt too wide) in paragraph at lines 1287--1287
  []|\TU/texgyrepagella(2)/b/n/8 Employed 
  []
 
 
-Overfull \hbox (0.696pt too wide) in paragraph at lines 1341--1342
+Overfull \hbox (0.696pt too wide) in paragraph at lines 1287--1288
  \TU/texgyrepagella(2)/b/n/8 Employed 
  []
 
-[97] [98] [99] [100] [101] [102]
+[109] [110] [111] [112] [113] [114]
 File: figures/fig-ageplot-1.pdf Graphic file (type pdf)
 <use figures/fig-ageplot-1.pdf>
-[103]
+[115]
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options
@@ -2094,196 +2151,204 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-[104] [105] [106]
+[116] [117] [118]
 File: figures/fig-clusters-1.pdf Graphic file (type pdf)
 <use figures/fig-clusters-1.pdf>
-[107] [108]
-
-LaTeX Warning: Reference `tbl-clusterreg' on page 109 undefined on input line 1
-661.
-
-[109] [110] [111]
-Overfull \hbox (2.933pt too wide) in paragraph at lines 1687--1687
+[119] [120] [121] [122] [123]
+Overfull \hbox (2.933pt too wide) in paragraph at lines 1633--1633
  []|\TU/texgyrepagella(2)/b/n/7 Overall| 
  []
 
 
-Overfull \hbox (1.806pt too wide) in paragraph at lines 1687--1687
+Overfull \hbox (1.806pt too wide) in paragraph at lines 1633--1633
  []|\TU/texgyrepagella(2)/b/n/7 Female| 
  []
 
 
-Overfull \hbox (9.41765pt too wide) in paragraph at lines 1684--1726
+Overfull \hbox (9.41765pt too wide) in paragraph at lines 1630--1672
  [] 
  []
 
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
+[124] [125] [126] [127] [128] [129] [130] [131] [132] [133]
+Underfull \hbox (badness 2799) in paragraph at lines 1714--1714
+[][]\TU/texgyrepagella(0)/m/n/12 Furnas, Hannah E. (Sept. 2016). “Capturing Com
+plexities of Relationship-
+ []
+
+[134] [135] [136]
 File: figures/littoral_carte.png Graphic file (type bmp)
 <figures/littoral_carte.png>
-[124] [125] [126] [127] [128]
+[137] [138] [139] [140] [141]
 Overfull \vbox (60.4397pt too high) has occurred while \output is active []
 
-[129]
-Overfull \hbox (17.70065pt too wide) in paragraph at lines 2041--2096
+[142]
+Overfull \hbox (17.70065pt too wide) in paragraph at lines 1987--2042
  [] 
  []
 
 
 Overfull \vbox (34.52304pt too high) has occurred while \output is active []
 
-[130] [131]
+[143] [144]
 File: figures/fig-survival-1.pdf Graphic file (type pdf)
 <use figures/fig-survival-1.pdf>
-[132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142
-
-]
+[145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
 Chapter 4.
-Package biblatex Info: Reference segment=9 on input line 3154.
-Package biblatex Info: Setting label 'refsegment:09' on input line 3154.
-[143] [144] [145] [146] [147] [148] [149]
+Package biblatex Info: Reference segment=10 on input line 3100.
+Package biblatex Info: Setting label 'refsegment:010' on input line 3100.
+
+Underfull \hbox (badness 1430) in paragraph at lines 3105--3106
+\TU/texgyrepagella(0)/m/n/12 to leave their training workshop after graduation,
+ suggests that apprentice
+ []
+
+[155
+
+] [156] [157] [158] [159] [160]
 File: figures/fig-enrollment-1.pdf Graphic file (type pdf)
 <use figures/fig-enrollment-1.pdf>
-[150] [151] [152] [153] [154] [155]
+[161] [162] [163] [164] [165] [166]
 Overfull \vbox (12.0055pt too high) has occurred while \output is active []
 
-[156] [157] [158] [159] (./tables/tbl-cbmodels.tex) [160] [161] [162] [163] [16
-4]
-Overfull \hbox (16.56868pt too wide) in paragraph at lines 3469--3504
+[167] [168] [169] [170] (./tables/tbl-cbmodels.tex) [171] [172] [173] [174] [17
+5]
+Overfull \hbox (16.56868pt too wide) in paragraph at lines 3413--3448
  [][] 
  []
 
-[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [
-178] [179]
-Underfull \hbox (badness 1057) in paragraph at lines 3815--3815
+[176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [
+189] [190]
+Underfull \hbox (badness 1057) in paragraph at lines 3760--3760
 [][]\TU/texgyrepagella(0)/m/n/12 Allais, Stephanie (July 3, 2022). “Skills for 
 Industrialisation in Sub-Saharan
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 3815--3815
+Underfull \hbox (badness 1132) in paragraph at lines 3760--3760
 \TU/texgyrepagella(0)/m/n/12 African Countries: Why Is Systemic Reform of Techn
 ical and Vocational
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 3815--3815
+Underfull \hbox (badness 3838) in paragraph at lines 3760--3760
 \TU/texgyrepagella(0)/m/n/12 Run Effects of Youth Training Programs: Experiment
 al Evidence from
  []
 
-[180]
-Underfull \hbox (badness 1708) in paragraph at lines 3815--3815
+[191]
+Underfull \hbox (badness 1708) in paragraph at lines 3760--3760
 [][]\TU/texgyrepagella(0)/m/n/12 Ghisletta, Andrea, Johanna Kemper, and Jonatha
 n Stöterau (2021). \TU/texgyrepagella(0)/m/it/12 The Im-
  []
 
-[181]
-Underfull \hbox (badness 1515) in paragraph at lines 3815--3815
+[192]
+Underfull \hbox (badness 1515) in paragraph at lines 3760--3760
 \TU/texgyrepagella(0)/m/it/12 Evidence Informed Practice for Unemployed and Dis
 advantaged Youth\TU/texgyrepagella(0)/m/n/12 . Cham:
  []
 
-[182] [183] [184] [185] [186] [187]
+[193] [194] [195] [196] [197] [198]
 File: figures/fig-firmsize-1.pdf Graphic file (type pdf)
 <use figures/fig-firmsize-1.pdf>
-[188] [189] [190] [191]
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 10.67926pt on input line 4080.
+[199] [200] [201] [202] [203]
 File: figures/fig-costspie-1.pdf Graphic file (type pdf)
 <use figures/fig-costspie-1.pdf>
-[192]
 File: figures/fig-costspie2-1.pdf Graphic file (type pdf)
 <use figures/fig-costspie2-1.pdf>
+[204]
 File: figures/fig-apphist-1.pdf Graphic file (type pdf)
 <use figures/fig-apphist-1.pdf>
-[193]
+[205]
 Overfull \vbox (24.5241pt too high) has occurred while \output is active []
 
-[194]
+[206]
 File: figures/fig-firmhist-1.pdf Graphic file (type pdf)
 <use figures/fig-firmhist-1.pdf>
 
 Overfull \vbox (24.53235pt too high) has occurred while \output is active []
 
-[195] [196] [197] [198
+[207] [208] [209] [210
 
-] [199
+] [211
 
-] [200
+] [212
 
-] [201
+] [213
 
-] [202] [203]
+] [214] [215]
 File: figures/questionnaire/metalworking.pdf Graphic file (type pdf)
 <use figures/questionnaire/metalworking.pdf>
-[204]
+[216]
 Overfull \vbox (24.52449pt too high) has occurred while \output is active []
 
-[205]
+[217]
 File: figures/questionnaire/plumbing.pdf Graphic file (type pdf)
 <use figures/questionnaire/plumbing.pdf>
 File: figures/questionnaire/carpentry.pdf Graphic file (type pdf)
 <use figures/questionnaire/carpentry.pdf>
-[206]
+[218]
 File: figures/questionnaire/masonry.pdf Graphic file (type pdf)
 <use figures/questionnaire/masonry.pdf>
-[207]
+[219]
 Overfull \vbox (24.5115pt too high) has occurred while \output is active []
 
-[208]
+[220]
 File: figures/questionnaire/electricians.pdf Graphic file (type pdf)
 <use figures/questionnaire/electricians.pdf>
 
 Overfull \vbox (2.29791pt too high) has occurred while \output is active []
 
-[209] [210
+[221] [222
 
-]
-Chapter 5.
-Package biblatex Info: Reference segment=10 on input line 4531.
-Package biblatex Info: Setting label 'refsegment:010' on input line 4531.
-[211] [212
-
-] [213]
-Underfull \hbox (badness 1057) in paragraph at lines 4540--4540
+] [223]
+Underfull \hbox (badness 1057) in paragraph at lines 4502--4502
 [][]\TU/texgyrepagella(0)/m/n/12 Allais, Stephanie (July 3, 2022). “Skills for 
 Industrialisation in Sub-Saharan
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 4540--4540
+Underfull \hbox (badness 1132) in paragraph at lines 4502--4502
 \TU/texgyrepagella(0)/m/n/12 African Countries: Why Is Systemic Reform of Techn
 ical and Vocational
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 4540--4540
+Underfull \hbox (badness 3838) in paragraph at lines 4502--4502
 \TU/texgyrepagella(0)/m/n/12 Run Effects of Youth Training Programs: Experiment
 al Evidence from
  []
 
-[214] [215] [216] [217]
-Underfull \hbox (badness 1708) in paragraph at lines 4540--4540
+[224] [225] [226] [227] [228]
+Underfull \hbox (badness 2799) in paragraph at lines 4502--4502
+[][]\TU/texgyrepagella(0)/m/n/12 Furnas, Hannah E. (Sept. 2016). “Capturing Com
+plexities of Relationship-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 4502--4502
 [][]\TU/texgyrepagella(0)/m/n/12 Ghisletta, Andrea, Johanna Kemper, and Jonatha
 n Stöterau (2021). \TU/texgyrepagella(0)/m/it/12 The Im-
  []
 
-[218] [219]
-Underfull \hbox (badness 1515) in paragraph at lines 4540--4540
+[229] [230] [231]
+Underfull \hbox (badness 1515) in paragraph at lines 4502--4502
 \TU/texgyrepagella(0)/m/it/12 Evidence Informed Practice for Unemployed and Dis
 advantaged Youth\TU/texgyrepagella(0)/m/n/12 . Cham:
  []
 
-[220] [221] [222] [223]
-Underfull \hbox (badness 1231) in paragraph at lines 4540--4540
+[232] [233]
+Underfull \hbox (badness 1137) in paragraph at lines 4502--4502
+[][]\TU/texgyrepagella(0)/m/n/12 Petreski, Marjan, Nikica Mojsoska-Blazevski, a
+nd Marcelo Bergolo (Dec. 29,
+ []
+
+[234] [235]
+Underfull \hbox (badness 1231) in paragraph at lines 4502--4502
 \TU/texgyrepagella(0)/m/n/12 United Nations Development Programme (UNDP) 2019. 
 New York, NY:
  []
 
-[224] [225] (./diss.aux)
-
-LaTeX Warning: There were undefined references.
-
+[236] [237] (./diss.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2292,12 +2357,12 @@ Package logreq Info: Writing requests to 'diss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33897 strings out of 476179
- 666591 string characters out of 5809544
- 1600895 words of memory out of 5000000
- 53960 multiletter control sequences out of 15000+600000
+ 34202 strings out of 476179
+ 674140 string characters out of 5809544
+ 1618404 words of memory out of 5000000
+ 54263 multiletter control sequences out of 15000+600000
  480334 words of font info for 192 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,21n,123p,3232b,5643s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,21n,123p,3232b,5648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on diss.pdf (237 pages).
+Output written on diss.pdf (251 pages).
