@@ -311,6 +311,15 @@ $endif$
     $if(title)$
     \title{$title$}
     $endif$
+    $if(subtitle)$
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{$subtitle$}
+$endif$
     
     \author{
     $for(author)$$author.name$$if(author.affiliation)$\thanks{
@@ -322,34 +331,36 @@ $endif$
 		\includegraphics[viewport=75 -45 0 -60]{figures/logo.jpg} \hfill
 
 		\begin{center}
-				\vspace{-3cm}
+				\vspace{-2cm}
 		    
 		    {DISS. ETH NO. \dissno}
 		    
-		    \vspace{3cm}
+		    \vspace{2.5cm}
 		
 			  {\large\bfseries \MakeUppercase \@title}
 			  
-			  \vspace{2.5cm}
+			  \vspace{2cm}
 			  
 			  \normalsize
 			  
 			  A thesis submitted to attain the degree of \\[12pt] DOCTOR OF SCIENCES \\[12pt] (Dr. sc. ETH Zürich)
 
-		    \vspace{1.5cm}
+		    \vspace{1cm}
 
-			  Presented by \\[12pt]  \MakeUppercase{\@author} \\[12pt] M.A., University of Zürich, Switzerland
+			  presented by \\[12pt]  \textit{\MakeUppercase{\@author}} \\[12pt] M.A., University of Zürich, Switzerland
 		
-		    \vspace{1.5cm}
+		    \vspace{1cm}
 		    
 		    born on 04.01.1991 \\[12pt] citizen of Poland and the United States of America
 		    
-		    \vspace{2cm}
+		    \vspace{2.5cm}
 		    
 		    accepted on the recommendation of
-		    \\[18pt] Prof. Dr. Isabel Günther (ETH Zürich, Examiner)
-		    \\[18pt] Prof. Dr. Ursula Renold (ETH Zürich, Co-examiner)
-		    \\[18pt] Prof. Dr. Paola Monserrat (University of Chile, Co-examiner)
+		    \\[18pt] \textit{Prof. Dr. Isabel Günther (ETH Zürich, Examiner)}
+		    \vspace{-.3cm}
+		    \\[18pt] \textit{Prof. Dr. Ursula Renold (ETH Zürich, Co-examiner)}
+		    \vspace{-.3cm}
+		    \\[18pt] \textit{Prof. Dr. Paola Monserrat (University of Chile, Co-examiner)}
 		    
 		     \vspace{3cm}
 		     
@@ -395,7 +406,7 @@ $endif$
 
 \chapter*{Abstract}
 
-\input{chapters/bigabstract}
+\input{chapters/abstract}
 \addcontentsline{toc}{chapter}{Abstract} 
 
 \chapter*{Zusammenfassung}

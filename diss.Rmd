@@ -1,6 +1,6 @@
 ---
-title: Thesis title
-dissno: xxxx
+title: "Bridging the Gap: School-to-Work Transitions and Youth Labor Market Dynamics in Informal Economies"
+dissno: 29728
 author: 
   - name: Bartlomiej Pawel Kudrzycki
 thanks: Thanks to Dario and Elina for the Markdown template.
@@ -62,9 +62,11 @@ This paper introduces the Youth Labor Index for Lower-Income Countries (YLILI), 
 
 \newsection
 
-\chapter{Lost in Transition}
+\chapter[Lost in Transition]{Lost in Transition: School-to-Work Transition Mapping in Urban Bénin}
+
 \begin{chapabstract}
-This paper uses a novel longitudinal dataset of 752 youth living in Cotonou, Benin, collected over 2 years, to analyze the school-to-work transition in a highly informal, urban environment. We conduct five waves of in-person and mobile phone surveys over three years with youth aged 20-29. We find evidence of queuing for wage jobs: relatively well-educated youth endure long periods of inactivity waiting for wage employment. Even wage jobs are informal and low-paying, and almost none fulfill the ILO formality criteria. Quantifying the transition, we find that the average youth in our sample needs between 5 and 18 months to find their first employment after graduation and between 23 and 27 months to find steady employment. Transition propensities show that casual, but full-time work following a spell of inactivity is the most common path taken; it is more likely to occur directly after graduation for men than from women. Finally, we find that youth who have transitioned to the labor market experience more life satisfaction, though no effect is detected for particular types of transitions.
+This paper uses a novel, longitudinal dataset of 752 youth aged 20-29 in Cotonou, Benin, to map school-to-work transitions (SWTs) in a highly informal, urban economy. Five waves of in-person and mobile phone surveys conducted over three years provide rich employment and activity histories for youth. First, the activity histories are used to estimate the duration of the transition from school to employment. Second, transition matrices constructed from the event histories are used identify differences in rates of transition between activity states by gender and age group. Third, Optimal Matching Analysis (OMA) treats the activity histories as sequences, allowing us to group and analyze clusters of similar school-to-work trajectories. Fourth, we develop a detailed taxonomy of employment types (such as casual work or independent self-employment) and analyze the propensity for youth to engage in or transition into these types of work. We document limited permeation between activity states, a low probability of exiting the SWT among young women, and a late school-leaving age among all youth. We interpret the latter as indicative of strong sorting in the early stages of the SWT in informal labor markets.
+
 \end{chapabstract}
 
 \newpage
@@ -75,7 +77,7 @@ This paper uses a novel longitudinal dataset of 752 youth living in Cotonou, Ben
 \newsection
 
 \chapter[Costs \& Benefits of Dual Apprenticeship in Bénin]{Costs and Benefits of the Dual System in the Context of Traditional Apprenticeship in Bénin}
-_co-authored with Sylvain Kpenavoun, Esaïe Gandonou, Guy Nouatin & Rubain Bankole_
+_co-authored with Sylvain Kpenavoun Chogou, Esaïe Gandonou, Guy Nouatin & Rubain Bankole_
 
 \begin{chapabstract}
 Traditional apprenticeships are an important source of skills for early school leavers in developing countries. This paper sheds light on the institution of traditional apprenticeship through a study of a national apprenticeship reform called the CQP, which combines in-firm training with a weekly classroom component. Using two waves of surveys with firm owners and apprentices, we analyze the human capital gains and material costs and benefits associated with training. We find that the program did not generate improvements in apprentice skill or in firm profitability, possibly due to a strong selection of older, overqualified candidates into the program. We do find that traditional apprenticeship on the whole improves apprentices' sector-specific knowledge and experience. Fees paid by apprentices are found to be commensurate with the allowances they receive from the trainers, contradicting earlier work which suggest that firms use fees for financing. Estimates suggest that apprentice productivity must be substantial for firms to break even on training. The high proportion of apprentices as a fraction of the total workforce in firms, combined with the tendency for apprentices to leave their training workshop after graduation, suggests that apprentice productive contributions to the training firms are indeed substantial.
@@ -85,14 +87,3 @@ Traditional apprenticeships are an important source of skills for early school l
 
 ```{r, child='chapters/3_cqp/markdown/cqp.Rmd'}
 ```
-
-<!-- \newsection -->
-
-<!-- \chapter{Conclusion} -->
-
-<!-- ```{r, child='chapters/conclusion.Rmd'} -->
-<!-- ``` -->
-
-<!-- \newpage -->
-
-<!-- Usually private arrangements between parents and informal firms, apprenticeship quality and costs are not subject to oversight or regulation, and the various transactions taking place between apprentice and firm have not been carefully documented to date.  -->
