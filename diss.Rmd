@@ -1,5 +1,5 @@
 ---
-title: "Bridging the Gap: School-to-Work Transitions and Youth Labor Market Dynamics in Informal Economies"
+title: "Bridging the Gap: School-to-Work Transitions and Youth Labor Market Dynamics"
 dissno: 29728
 author: 
   - name: Bartlomiej Pawel Kudrzycki
