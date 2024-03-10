@@ -1,0 +1,117 @@
+---
+title: Conclusion
+author: 
+  - name: Bart Kudrzycki
+    affiliation: Development Economics Group, ETH Zurich, Switzerland, <bartlomiej.kudrzycki@nadel.ethz.ch>
+date: \today
+thanks: |
+  Thanks to Dario for the Markdown template.
+keywords: [Informal labor markets, Dual training, Apprenticeship]
+jel: [I26]
+classoption: a4paper, 12pt
+geometry: left=3cm, right=3cm
+bibliography: conclusion.bib
+csl: 'apa-no-ampersand.csl'
+output: 
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    citation_package: biblatex
+    style: authoryear
+    template: template.tex
+    extra_dependencies: ["flafter", "placeins", "changepage", "multirow", "array", "adjustbox", "longtable", "pifont", "fancyhdr", "pdflscape", "fancyhdr"]
+    fig_caption: yes
+---
+
+```{r conclusion-setup, include=FALSE}
+packages <- c("tidyverse", "ggplot2", "gridExtra")
+
+options(repos = c(CRAN = "http://cran.rstudio.com"))
+
+# install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages], silent = TRUE)
+}
+
+# load packages
+invisible(lapply(packages, library, character.only = TRUE))
+
+rm(installed_packages)
+
+# load code chunks
+knitr::opts_chunk$set(message=FALSE,
+                      warning=FALSE,
+                      echo = FALSE,
+                      cache = TRUE,
+                      fig.path= 'figures/',
+                      fig.pos = 'H',
+                      out.extra = "",
+                      floatfoot.envs = c("figure", "table", "longtabu"))
+
+```
+
+\hl{In summary, this thesis illuminates the school-to-work transition at both the national and individual level, and evaluates one program that attempts to ease this transition by combining training and classroom education. Our research highlights the critical link between demographics and labor market strength, while challenging the common wisdom that labor market strength is necessarily correlated with GDP. Moreover, it shows that youth in a highly informal, highly urban labor market experience school-to-work transitions that may be more akin to those measured in high-income countries than those experienced by the average person in the region, with the notable exception of young women, who are shown to be highly disadvantaged in the process. Finally, our study of dual training in the informal apprenticeship system suggests that informal apprenticeships significantly improve skills on average, while the addition of a formal dual education component yields few additional benefits. We reiterate and summarize the main findings and make suggestions for future research below, and close with policy recommendations.}
+
+# \hl{Revisiting the Main Findings and Future Research Outlook}
+
+### \hl{Paper 1: Youth Labor Index for Low Income Countries} {- .unlisted}
+
+\hl{Paper 1 of this dissertation introduces the Youth Labor Market Index for Low-Income Countries (YLILI), a novel composite index designed to provide a more comprehensive picture of youth labor market strength compared to single indicators such as the unemployment rate. The YLILI incorporates three key dimensions: education, working conditions, and transition smoothness.}
+
+\hl{Despite limitations in data availability across low- and lower-middle-income countries (LMICs), the YLILI was successfully calculated for 54 out of 79 countries. Analyses revealed important patterns in the relative importance of each dimension for final country rankings. Transition smoothness showed the least variation across the sample, while education and working conditions exhibited more significant differences. Notably, educational attainment emerged as a crucial factor in determining a country's final ranking.}
+
+\hl{One of the most striking findings was the strong association between YLILI scores and demographic patterns, particularly the ratio of youth to adults in the working population and national fertility rates. Countries with very young populations scored significantly lower on the YLILI, especially when only data for men was considered. Interestingly, per-capita GDP levels displayed a weak correlation with youth labor market strength once demographic characteristics were accounted for. This suggests that population growth creates pressures on youth labor markets that are not simply alleviated by economic expansion.}
+
+\hl{Rapid population growth appears to strain educational systems, as evidenced by the negative association between the youth population ratio and educational outcomes. Fertility rates, especially for women, emerged as the strongest predictor of YLILI scores among macroeconomic factors:  an additional birth per female at the national level was found to be associated with a 4.6 point decrease in the (overall) YLILI score, or about 0.6 of a standard deviation. This finding likely reflects the negative impact of childbearing on women's economic activity and educational attainment, both of which are integrated into the YLILI framework.}
+
+\hl{The YLILI offers a more focused exploration of youth labor market strength compared to existing indices, which often aim to measure youth well-being in a more holistic sense} [@sen2016; @lisney2018]. \hl{In contrast to these indices, GDP and income do not correlate the with YLILI ranking. This emphasizes the importance of factors beyond income levels in understanding youth labor market dynamics. Additionally, the YLILI focuses specifically on LMICs and LICs, employing a distinct set of indicators and data sources compared to indices designed for high-income countries (HICs), such as the KOF Youth Labor Market Index }[@renold2014; @pusterla2015; @pusterla2016].
+
+\hl{The YLILI thus presents a valuable tool for policymakers and researchers concerned with youth labor issues in low- and lower-middle-income countries. Its unique focus on youth labor market strength offer new insights into the challenges facing young workers in developing economies. Future research on the YLILI could involve expanding data coverage by seeking alternative data sources, conducting longitudinal studies to assess policy impact, updating the webtool using the ILOSTAT API, and conducting in-depth case studies. The YLILI framework could also be utilized in policy simulation and cost-benefit analysis exercises. This would allow policymakers to make data-driven decisions regarding resource allocation and policy design, ultimately aiming to maximize the impact of interventions aimed at improving youth labor market outcomes in LMICs and LICs.}
+
+### \hl{Paper 2: Lost in Transition: School-to-Work Transition Mapping in Urban Bénin} {- .unlisted}
+
+\hl{Paper 2 studies the dynamics of the school-to-work transition (SWT) experienced by a sample of 752 young adults (aged 20-29) residing in the urban center of Cotonou, Bénin. Employing a unique panel constructed with a combination of in-person and mobile phone surveys, the study classifies youth activity into five distinct states across multiple survey rounds. By integrating recall data with panel responses, comprehensive employment and education histories are established, dating back to 2013. These histories allow for the calculation of individual school leaving ages and SWT transitions. Transition intensity matrices are then estimated, and Optimal Matching Analysis (OMA) is employed to identify clusters representing similar trajectories along the SWT pathway.}
+
+\hl{From the panel data, we are able to estimate the timing of key events within the SWT for the average youth in Cotonou. School leaving is observed for 62 percent of the sample, with a first employment experience occurring for 60 percent and permanent labor market entry for 55 percent. The average school leaving age is 23.7 years, followed by a transition period just exceeding one year on average. Notably, the age of entry and exit from the SWT, along with the transition duration, are closer to those estimated in high-income countries than the average reported in Sub-Saharan Africa} [@manacorda2017]. \hl{The prevalence of informal, non-agricultural work in urban areas likely contributes to a faster transition in Cotonou compared to the rest of Bénin and the continent.}
+
+\hl{The study further demonstrates the important role of education in determining the path of the SWT. While completion of secondary education is associated with a delayed transition, it does not significantly impact the overall duration of the SWT. Extended university studies lead to a longer transition, whereas parental higher education accelerates entry into the labor market. While young men exhibit a lower likelihood of becoming NEET upon leaving school than young women, neither individual nor parental education significantly influences the probability of securing employment immediately after leaving school (i.e., having the shortest possible SWT).}
+
+\hl{As in Paper 1, we find strong and persistent gender disparities when mapping school-to-work transitions. Young men enter the labor market roughly six months later than young women, though they take a similar amount of time to find their first job. Notably, youth entering the labor market as wage earners are more likely to be male, and transition matrices reveal a higher propensity for women to transition into NEET status, regardless of their initial activity state. Women exhibit a significantly lower likelihood of transitioning back from NEET to either wage or self-employment. Finally, the grouping of youth trajectories using OMA yields one group, NEET, in which youth spend the majority of time under observation in the NEET activity state: this group is comprised nearly exclusively of women. These results underscore the issue of early and potentially permanent labor market exit by women, highlighted in prior SWT research} [@manacorda2017; @dedehouanou2019].
+
+\hl{A closer analysis of the jobs carried out by active labor market participants in our sample suggests increasing employment stability with age and experience. Regular work, defined by having a single employer with consistent wage payments, becomes more prevalent as youth age. This may indicate that employers may place a premium on experience, leading to longer tenures and potentially higher wages for older workers. However, a latent instability persists even among employed youth, with many desiring additional work hours and expressing a willingness to change employers. Income surveys reveal a substantial gender gap for both wages and self-employed profits, once again highlighting the persistent disadvantages faced by young women in the labor market.}
+
+\hl{Future research efforts can significantly contribute to our understanding of the school-to-work transition (SWT) in urban labor markets in LICs. Longitudinal studies tracking the career trajectories of NEET women and the impact of childcare availability on female labor market participation would be particularly insightful. Furthermore, expanding the geographic scope of the study and incorporating data on the availability and quality of jobs in urban areas could lead to a more refined model of the urban SWT process. Finally, the role of educational attainment and vocational training in facilitating successful transitions warrants further investigation. Longitudinal studies tracking the long-term career paths of those pursuing higher education or vocational training could illuminate the cost-benefit analysis of delayed entry into the workforce. Additionally, policy interventions such as targeted employment training programs and mentorship initiatives could be evaluated to assess their effectiveness in reducing unemployment spells for urban youth.}
+
+### Paper 3: Costs and Benefits of the Dual System in the Context of Traditional Apprenticeship in Bénin {- .unlisted}
+
+\hl{Paper 3 shows that three years of informal apprenticeship training significantly boosted apprentice skills. Compared to a baseline, apprentices scored 0.13 standard deviations higher on sector-specific knowledge tests. Master trainers also observed substantial improvement in apprentice competence and experience. Their assessments showed increases of 0.46 and 0.58 standard deviations, respectively, on tasks specific to the sector.}
+
+\hl{Informal apprentices typically received more in allowances from their trainers over the training period than they (or their families) paid in total fees. Thus, unlike many models in which fees paid to trainers or formal wages paid to apprentices} [@velenchik1995], \hl{in the informal apprenticeship system in Benin, allowances given to apprentices for small expenses add up to become a significant firm expenditure. On average, apprentices received \$437 more per year in allowances than they paid in fees (assuming a four-year program).}
+
+\hl{The net benefit of training for firms varied significantly depending on the cost-benefit model applied. We observed positive benefits when apprentice productivity was accounted for, in line with a previous cost-benefit analysis of a training program in Nepal} [@bolli2020]. \hl{However, even with initial costs, it is important that firms may still benefit in the long run, especially if facing skill shortages. This emphasizes the importance of considering different approaches when assessing training costs and benefits.}
+
+\hl{Firms sending more apprentices to the CQP program did not experience demonstrably higher revenue or profit growth. This, combined with the lack of an impact on apprentice skills (compared to traditional informal apprenticeship training without a classroom component), suggests that the CQP program may need adjustments to better serve both apprentices and firms.}
+
+\hl{Building on these insights, future research could explore the following aspects of both informal apprenticeship training and dual training in the informal sector. First and foremost, long-term effects of both informal apprenticeship and dual training could be measured by tracking apprentices and firms for a longer period to assess the program's impact on career progression, firm productivity, and long-term profitability, in the spirit of long-term follow-ups of training programs in Colombia} [@attanasio2017]\hl{ and the Dominican Republic }[@ibarraran2019]. \hl{Second, the Covid-19 pandemic is likely to have had a large, but unmeasured, impact on the CQP program, through interruptions to scheduled classroom teaching and the daily business of small business via the \textit{cordon sanitaire}. Understanding the impact of the pandemic would be invaluable for strengthening program resilience in the future and adjusting the findings of impact studies conducted during the pandemic to account for similar disruptions. Research could identify specific aspects of the CQP program that need improvement to enhance its effectiveness for both apprentices and firms. This could involve tailoring the curriculum to better match each sector's needs, providing additional mentorship or support services to apprentices, or exploring alternative classroom teaching schedules and delivery methods. Finally, research could investigate the factors that influence participation in informal apprenticeships, particularly for women, selected trades, and marginalized groups. How can the system be made more inclusive?}
+
+# \hl{Policy Implications}
+
+\hlc[lightgray]{In the three chapters of this thesis, I provide evidence on cross-country and country-specific school-to-work transitions in low-income and informal labor market settings. I demonstrate that longitudinal data provides deep insights into the SWT, and that this data can be gathered at low cost and with relatively low drop-out rates with the help of remote surveys. I also show that dual system apprenticeship is a promising avenue for facilitating successful transitions to employment, in particular for youth who exit the formal education system early. The three chapters also articulate various policy responses to the youth employment crisis, which can be summarized in three cross-cutting recommendations.}
+
+### _First, reducing the size of youth cohorts is critical to easing pressure on new labor market entrants_ {- .unlisted}
+
+\hlc[lightgray]{As argued above, persistently high fertility rates not only reduce growth prospects by delaying a demographic dividend, they also make individual SWTs more difficult by increasing the number of job applicants for a growing, but still limited number of formal jobs. In Paper 1, we show that countries with higher fertility rates exhibit worse scores on the YLILI, especially when calculated for male-specific data. In Paper 2, we show that early childbearing has devastating consequences for female labor market participation and the likelihood of transitioning to the labor market: young women in Cotonou are shown to marry earlier (59 percent of female youth aged 20-29 vs. 17 percent of male youth) and have more children in the sampled age range (1.73 vs. 0.53). Reducing fertility rates through better access to education for girls, higher quality maternal and child health provision, and better access to family planning are thus of paramount importance for both individual SWTs as well as growth prospects for the region as a whole.}
+
+### _Second, quality data is needed to inform a better understanding of the school-to-work transition_ {- .unlisted}
+
+\hlc[lightgray]{The foundation for a successful country-specific analyses of school-to-work transitions is inextricably tied to the need for more and higher-quality data on employment, education, and job history. Even at a time when digitization has made data collection easier and less expensive than ever, labor market statistics emerging from low-income countries are scarce and, in many cases, of low quality [@fox2013]. In Paper 1, I advocate for a more systematic disaggregation of otherwise publicly available data, by age and gender in particular. The Paper argues that a holistic indicator of youth labor market strength is necessary for accurately identifying policy priorities, yet various key indicators -- including work formality -- are only published in aggregate form. Paper 2 argues that cross-sectional data is insufficient to fully quantify the school-to-work transition, and demonstrates three powerful approaches utilizing longitudinal data for the same purpose. While longitudinal employment data and detailed work histories have been collected in high-income countries for decades, they are still sorely lacking in many regions where the youth employment crisis is most acute. Finally, Paper 3 joins @crepon2019, @alfonsi2020 and @hardy2022 in the utilization of matched apprentice-trainer data to evaluate the effects of a training scheme on both sides of the training agreement. Such two-sided studies are crucial to evaluate not just the success of the program in terms of youth income and skill development, but also their sustainability in terms of their related costs to, and impacts on, training firms.}
+
+### _Third, policies are needed to further integrate young women into labor markets_ {- .unlisted}
+
+\hlc[lightgray]{At a relatively early age, most young women in Africa must decide whether to enter the labor market (and if so, how) or to marry and have children (and if so, when). For many, marrying is an avenue for escaping poverty and relying on male breadwinner for financial support. Nearly 80 percent of African women marry and give birth by the age of 25 [@filmer2014]. A cross-cutting theme of this thesis is the importance of integrating these women into the labor market at an early age, in order to increase their economic independence, reduce fertility rates, and boost overall youth labor market participation. Paper 1 shows that countries score significantly higher on the YLILI when only male-specific data is used, driven in large part by high female NEET rates. In Paper 2, we find that women are less likely to work full-time and be an employer than men, while self-employed women make significantly less than self-employed men. In one of the most striking findings, OMA reveals that the cluster of SWTs that is dominated by inactivity (NEET status) is almost entirely comprised of women. Paper 3 is limited by an almost complete lack of female participation in the apprenticeship scheme due to the (highly gendered) trades selected for study. This is in line with the observation that women are selecting into an ever smaller number of occupations, perpetuating gender segregation in youth labor markets [@borrowman2020]. Policies encouraging more women to enter the labor market and to branch out into stereotypically male-dominated trades are an thus an important step, not just to promote economic justice, but to increase overall labor market participation and drive growth.}
+
+\hlc[lightgray]{This list of recommendations is not comprehensive, and the individual papers discuss further issues such as need for the monitoring and evaluation mechanisms around youth-targeted labor market programs, strategies for encouraging participation in apprenticeship training, the successes and pitfalls around remote data collection, and alternative methods to composite index construction. Moreover, questions remain about the representativeness of the case studies presented in Papers 2 and 3, and to what extent the lessons from these studies generalize to other cities, countries, and programs.}
+
+
+
+

@@ -7,7 +7,7 @@ thanks: Thanks to Dario and Elina for the Markdown template.
 keywords: [Informal labor markets, Dual training, Apprenticeship]
 jel: [I26]
 classoption: a4paper, twoside, 12pt
-geometry: inner=3cm, outer=3cm
+geometry: inner=3cm, outer=3cm, asymmetric
 bibliography: bibliography.bib
 biblatexoptions: [refsegment=chapter]
 output: 
@@ -86,4 +86,10 @@ Traditional apprenticeships are an important source of skills for early school l
 \newpage
 
 ```{r, child='chapters/3_cqp/markdown/cqp.Rmd'}
+```
+
+\newsection
+
+\chapter{Conclusion}
+```{r, child='chapters/4_conclusion/markdown/conclusion.Rmd'}
 ```

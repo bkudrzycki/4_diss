@@ -278,6 +278,13 @@ $endif$
 }
 \date{$date$}
 
+% Set up highlights (for corrections)
+\usepackage{soul}
+%\renewcommand{\hl}[1]{#1}
+\renewcommand{\cite}[1]{\mbox{\autocite{#1}}}
+
+\usepackage[color=white]{todonotes}
+
 \begin{document}
 $if(has-frontmatter)$
 \frontmatter
