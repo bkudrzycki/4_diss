@@ -1,0 +1,128 @@
+---
+output: 
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    template: template.tex
+geometry: margin=1in
+
+title: "CV"
+author: Bartłomiej Paweł Kudrzycki
+
+# jobtitle: "Development Economics Group, ETH Zürich"
+address: "Trüsselstrasse 2 · 3000 Bern 65"
+email: bartlomiej.kudrzycki@sbb.ch
+# github: bkudrzycki
+# twitter: bartkudz
+#osf: "Enter 5 digit osf string here"
+phone: "+41 (0)79 500 59 10"
+# web: guinness.com
+updated: TRUE
+rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+\setlength{\columnsep}{-8cm}
+\btwocol
+Current \
+Position
+\vfill\null
+\columnbreak
+
+**Transportation Planner** \
+SBB CFF FFS \hfill 2023-
+\etwocol
+
+\btwocol
+Education
+\vfill\null
+\columnbreak
+
+**Ph.D.** Economics, ETH Zürich \hfill 2023 \
+**M.A.**  \hspace{1pt} Economics, University of Zürich \hfill 2017 \
+**B.A. **  \hspace{1pt} Physics, Washington University in St. Louis \hfill 2013 \
+\etwocol
+
+\btwocol
+Academic \
+Experience
+\vfill\null
+\columnbreak
+
+\vspace{-1cm}
+
+**Doctoral Student**, Development Economics Group  \hfill 2017-2023 \
+ETH Zürich \
+**Research Assistant**, Development Economics Group  \hfill 2016-2017 \
+ETH Zürich \
+**Summer Intern**, DIW Econ \hfill 2015  \
+German Institute for Economic Research, Berlin \
+**Research Assistant** to Professor Carl Sanders \hfill 2013 \
+Washington University in St. Louis
+\etwocol
+
+\btwocol
+Teaching \
+Assistance
+\vfill\null
+\columnbreak
+
+**ETH Zürich** \
+Statistics II \hfill 2021 \
+Entwicklungsökonomie (Development Economics) \hfill 2020 \
+Empirical Social Science Research \hfill 2019 \
+Applied Statistics \hfill 2018 \
+\vspace{0.05cm} \
+**Washington University in St. Louis** \
+Engineering and Scientific Computing \hfill 2013 
+\etwocol
+
+\btwocol
+Referee Work
+\vfill\null
+\columnbreak
+Journal of Applied Econometrics
+\etwocol
+
+\vspace{-1cm}
+
+\btwocol
+Grants
+\vfill\null
+\columnbreak
+Fulbright Teaching Scholarship \hfill 2013-2014 \
+Otis and Carol Bowden Scholarship in Physics \hfill 2009-2013
+\etwocol
+
+\btwocol
+Languages
+\vfill\null
+\columnbreak
+R, Python, Stata, Matlab, QGIS, Ruby on Rails \
+English (native), Polish (native), German (fluent), French (proficient)
+\etwocol
+
+Doctoral Advisors:
+\setlength{\columnsep}{-1cm}
+\hspace{8cm}
+
+\btwocol
+**Dr. Isabel Günther** \
+Professor of Development Economics \
+Development Economics Group \
+ETH Zürich \
+\urlstyle{tt} \url{isabel.guenther@nadel.ethz.ch}
+
+\vfill\null
+\columnbreak
+
+**Dr. Ursula Renold** \
+Professor of Education Systems \
+Dept. of Management, Technology, and Economics \
+ETH Zürich \
+\urlstyle{tt} \url{ursula.renold@mtec.ethz.ch}
+\etwocol

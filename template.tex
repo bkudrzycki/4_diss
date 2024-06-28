@@ -261,6 +261,7 @@ $endif$
 \usepackage[style=authoryear,refsegment=chapter,doi=false,isbn=false,url=false]{biblatex}
 \addbibresource{bibliography.bib}
 
+\usepackage{pdfpages}
 
 $if(csl-refs)$
 \newlength{\cslhangindent}
@@ -379,7 +380,7 @@ $endif$
 		    
 		     \vspace{3cm}
 		     
-		     2023
+		     2024
 		     
 		     \newpage
 		     
@@ -459,4 +460,6 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+\addcontentsline{toc}{chapter}{Curriculum Vitae} 
+\includepdf[pages=-]{chapters/CV_short_en.pdf}
 \end{document}
